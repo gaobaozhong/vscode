@@ -16,6 +16,6 @@ def createDataSet():
         [0,0],
         [0,0.1]
 
-    )
+    )#注意这个地方可能出错了，少了一个中国号，也就是说里面做的数据,不是一个数组，
     labels = ['A','A','B','B']
     return group, labels
