@@ -1,4 +1,4 @@
-#coding:utf
+[#coding:utf
 #这是一个实验，关于使用排山倒海数据的，这个数据线文件是第17页，世纪学习实战的身体是企业的一个例子，这里怎么打也打不变，我希望自己能从这个例子中好好学习一下，把我给你吃药不能长时间的事，我想今晚上，他们早上起来一定会做这个事情，这是音标练习的骄傲，最近邻算法大概的意思就是说我通过一些数据有没有出处？两个数的距离，然后得看看自己是不是极品，然后去前几个，然后就前几个的几个基本上就是，你说你可以随时监听，那你就是那种离别了多种方式来得到那边，第一个函数的话呢，这是，来源显示，几个。点，还有它们的类别，创建一个函数，就还是我都没想到，原来通过这个方式跟小孩说，
 
 from numpy import *
@@ -21,3 +21,17 @@ def createDataSet():
     )#注意这个地方可能出错了，少了一个中国号，也就是说里面做的数据,不是一个数组，
     labels = ['A','A','B','B']
     return group, labels
+
+def classify0(inX,dataSet,labels,k):#这个函数有四个输入参数，用于分类的树下两只，第一个，我去年样本集，第三个是标签向量，最后的参数表是用于选择最近邻居的数目，其中标签向量的元素，数目和取证的行数相同，程序使用的是否是距离公式，计算两个向量点之间的距离，就是所谓的，平方和，在，平方根，计算完所有点之间的距离之后呢，可以对数据按照从小到大的次序排序，然后呢确定前，开个距离，最小元素所在的主要分类，输入看总是正整数，最后将，我们得到的，立即数字点分解为援助列表，然后使用程序第二行导入的运算符模块的，按照第二个元素的次序对元素进行排序，财富的排序应该为女婿就按照由大到小的次序排序，最后返回发生频率最高的元素标签，你的预测数据所在的分类，我们可以在提示符中输入下面的命令，就直接掉这个函数，就可以了，输入的，原宿的话呢，它就是一个，因为我们现在的数据即是二维的，也就是每一句正中的美好是两个元素，这两个元素，那我们输入的这个，数字也是两个元素就可以了，我们可以尝试的，来输入一些值，还需练一下大概效果如何？
+    dataSetSize = dataSet.shape[0]
+    diffMat = tile(inX,(dataSetSize,1)) -dataSet
+    sqDiffMat = diffMat**2
+    sqDistances = sqDiffMat.sum(axis=1)
+    distances = sqDistances**0.5
+    sortedDistIndicies = distances.argsort()
+    classCount = {}
+    for i in range(k):
+        voteIlabel = labels[sortedDistIndicies[i]]
+        classCount[voteIlabel] = classCount.get(voteIlabel,0)+1
+    sortedClassCount = sorted(classCount.iteritems(),key=operator.itemgetter(1),reverse=True)
+    return sortedClassCount[0][0]
