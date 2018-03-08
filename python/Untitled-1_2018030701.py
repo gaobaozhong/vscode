@@ -1,6 +1,6 @@
 #coding:utf
 #这是一个测试例子，就是命好的地方，我现在写的代码了，
-import kNN_2018030704 as kNN
+import kNN_2018030801 as kNN
 from numpy import *
 import operator
 group,labels = kNN.createDataSet() 
