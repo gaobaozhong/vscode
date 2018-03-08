@@ -41,3 +41,7 @@ print sortedClassCount
 print sortedClassCount[0][0]
 
 print kNN.classify0([0,0],group,labels,3)
+
+datingDataMat,datingLabels = kNN.file2matrix('C:\Users\gao\Documents\code\python\datingTestSet2_20180308.txt')
+print datingDataMat
+print datingLabels

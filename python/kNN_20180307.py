@@ -35,3 +35,18 @@ def classify0(inX,dataSet,labels,k):#这个函数有四个输入参数，用于�
         classCount[voteIlabel] = classCount.get(voteIlabel,0)+1#这个地方是，根据我们，类别的值，然后呢，来，忠诚相应的，技术，是每种类别，这里加一，
     sortedClassCount = sorted(classCount.iteritems(),key=operator.itemgetter(1),reverse=True)#根据上面的雪花已经得到那个类别有多少个？这么一个。列表了，我们在通过这个，烧退了，还说，然后，把这个整个，列表，进行一个排序，恩爱到逆水进行排序，他使用的是，对函数中又能，三个参数，这三个参数的第一个，是使用的，就是我们要排序的数据，这里面这个数据返回一个，循环的一个数据集，在这里呢，它掉了内部的一个叫一点一tm这个函数，注意好这个函数，所以，刘家小哥号，
     return sortedClassCount[0][0]#好最后了，然后我们打牌，我去的第一个数，他的支取出来，就可以了，它的类别是。什么？就是什么了？
+
+def file2matrix(filename):#首先我们要知道我们本文件包含哪些额多少号得到文件的行数然后创建以零填充的矩阵，实际上这个是一个二维数组，但不可以弄出，为了简化处理，我们将去另一个维度的设置为固定值，然后按照自己的实际需要，增加相应的代码，以适应变化的输入值，循环处理文件中的每行数据，首先得根据函数，也许到所有的回车制服，然后使用碳粉，这不出来，加上不得到整行数据分成四类表，然后我们先去前三元素，将不清楚到特殊九点钟去，然后呢这个圆可以用索引值来表示最后一行元素，利用这种富有，所以我们可以方便的将列表中最后一列存储到项链中，就是我们必须明确通知解释器告诉他，600路车的颜色为整型，否则颜色会把原色的姿态处理完毕，把自己处理的元素与哲学比较简单的数据库来处理处理，
+    fr = open(filename)
+    arrayOLines=fr.readlines()#先得到每一行，
+    numberOfLines = len(arrayOLines)#然后呢？看了一下，好的树木，
+    returnMat=zeros((numberOfLines,3))
+    classLabelVector=[]
+    index=0
+    for line in arrayOLines:#曲美一行
+        line = line.strip()#网行的空格去掉
+        listFromLine = line.split('\t')#按照那个淘宝店，然后把所有的行，然后转换成一个列表,我没想到这个地方会出错，就是说这个，谁敢替这个斜杠，它有两种，一种是写了一本反斜杠，其实我现在也分不清楚什么叫刺激，什么叫反斜杠，谁能告诉我什么叫什么叫反斜杠，谁能告诉我，对，是的，如果他是学长的话呢，他表示就是这是一个符号，如果是的话，那可是一个，好像什么都不表示啊，这个在我们这里还没什么意义，还有意义吗？
+        returnMat[index,:]=listFromLine[0:3]#得到一个矩阵，这个矩阵，
+        classLabelVector.append(int(listFromLine[-1]))
+        index+=1
+    return returnMat,classLabelVector
