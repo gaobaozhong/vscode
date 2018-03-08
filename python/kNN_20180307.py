@@ -50,3 +50,27 @@ def file2matrix(filename):#首先我们要知道我们本文件包含哪些额�
         classLabelVector.append(int(listFromLine[-1]))
         index+=1
     return returnMat,classLabelVector
+
+def autoNorm(dataSet):
+    minVals = dataSet.min(0)
+    maxVals = dataSet.max(0)
+    ranges = maxVals -minVals
+    normDataSet = zeros(shape(dataSet))
+    m = dataSet.shape[0]
+    normDataSet = dataSet - tile(minVals,(m,1))
+    normDataSet = normDataSet/tile(ranges,(m,1))
+    return normDataSet,ranges,minVals
+
+def datingClassTest():#这是一个测试数据的，
+    hoRatio = 0.10#首先定义了一个范围，10%了，
+    datingDataMat,datingLabels = file2matrix("C:\Users\gao\Documents\code\python\datingTestSet2_20180308.txt")#这是设置数据，
+    normMat,ranges,minVals = autoNorm(datingDataMat) #这个是得到规划之后的数据，
+    m = normMat.shape[0]#这个是取样本个数，
+    numTestVecs = int(m*hoRatio)#这个是得到那个测试样本个数，
+    errorCount = 0.0#这是技术不错的技术
+    for i in range(numTestVecs):#开始循环，每个样本都要测一遍，
+        classifierResult = classify0(normMat[i,:],normMat[numTestVecs:m,:],datingLabels[numTestVecs:m],3)#这个开始做费力气了，然后把每个样本，和这是把这个测试卷中的每个样本，我记得好像是几个参数的，第一个参数肯定是那个是x表示那个我们测试样对，是的我们的属性，然后第三个是类别，第四个就是我们最后我们取得钱多少个的数，本，第二个就是我们的
+        print "the classifier cam eback with : %d, the readl anssdf ix : %d " % (classifierResult, datingLabels[i])#日打印，
+        if(classifierResult!=datingLabels[i]):#这个是我们之前的结果，如果不是的话呢，就出错率加一，
+            errorCount += 1.0
+    print "the total error rae is : %f"%(errorCount/float(numTestVecs))
