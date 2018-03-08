@@ -74,3 +74,14 @@ def datingClassTest():#这是一个测试数据的，
         if(classifierResult!=datingLabels[i]):#这个是我们之前的结果，如果不是的话呢，就出错率加一，
             errorCount += 1.0
     print "the total error rae is : %f"%(errorCount/float(numTestVecs))
+
+def classifyPerson():
+    resultList = ['not at all','in small doese','in large doses']
+    percentTats = float(raw_input("percentage of time spendt playing videogames?"))
+    ffMiles = float(raw_input("frequent flier miles earned per year?"))
+    iceCreame = float(raw_input("liters of ice cream consumed per year?"))
+    datingDataMat, datingLabels = file2matrix('C:\Users\gao\Documents\code\python\datingTestSet2_20180308.txt')
+    normMat,ranges,minVals=autoNorm(datingDataMat)
+    inArr = array([ffMiles,percentTats,iceCream])
+    classifierResult = classify0((inArr-minVals)/ranges,normMat,datingLabels,3)
+    print "you  will probably like this person:",resultList[classifierResult-1]

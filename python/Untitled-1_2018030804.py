@@ -26,3 +26,4 @@ normDataSet = normDataSet/tile(ranges,(m,1))
 print tile(ranges,(m,1))
 print normDataSet
 kNN.datingClassTest()
+kNN.classifyPerson()
