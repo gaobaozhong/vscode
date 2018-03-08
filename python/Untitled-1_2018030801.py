@@ -1,3 +1,4 @@
+
 from numpy import *
 filename='C:\Users\gao\Documents\code\python\datingTestSet2_20180308.txt'
 print filename
@@ -23,4 +24,3 @@ for line in arrayOLines:#曲美一行
     print listFromLine[-1]
     index+=1
 
-print 10/2
