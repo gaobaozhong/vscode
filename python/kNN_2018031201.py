@@ -95,7 +95,7 @@ def classifyPerson(filename):
     resultList=['not at all','in small doses','in large doses']
     percentTats =float(raw_input("percentage of time spent playing video games?"))
     ffMiles = float(raw_input("frequentt flier miles eraned pers yesr?"))
-    iceCream = flaot(raw_input("liters of ice cream consumed per year?"))
+    iceCream = float(raw_input("liters of ice cream consumed per year?"))
     datingDataMat,datingLabels = file2matrix(filename)
     normMat, ranges, minVals = autoNorm(datingDataMat)
     inArr = array([ffMiles,percentTats,iceCream])
