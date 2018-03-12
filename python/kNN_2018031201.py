@@ -101,3 +101,42 @@ def classifyPerson(filename):
     inArr = array([ffMiles,percentTats,iceCream])
     classifierResult = classify0((inArr-minVals)/ranges,normMat,datingLabels,3)
     print "you will probablyh like this person: ",resultList[classifierResult-1]
+
+
+# 使用算法，用于识别手写数字
+
+#手写数字是一个图像，要把图像读取出来
+def img2vector(filename):
+    returnVect = zeros((1,1024))
+    fr = open(filename)
+    fro i in range(32):
+        lineStr = fr.readline()
+        for j in range(32):
+            returnVect[0,32*i+j] = int(lineStr[j])
+    return returnVect
+
+def handwritingClassTest():
+    hwLabels=[]
+    trainingFileList=listdir('D:\Users\gao\Documents\Code\python\digits\trainingDigits')
+    m = len(trainingFileList)
+    trainingMat= zeros((m,1024))
+    for i in range(m):
+        filenameStr = trainingFileList[i]
+        fileStr = filenameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        hwLabels.append(classNumStr)
+        trainingMat[i,:]=img2vector('trainingDigits/%s'%fileNameStr)
+    testFileList = listdir('D:\Users\gao\Documents\Code\python\digits\trainingDigits')
+    errorCount= 0.0
+    mTest = len(testFileList)
+    for i in range(mTest):
+        fileNameStr = testFileList[i]
+        fileStr = filenameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        vectorUnderTest = img2Vector('testDigits/%s'%fileNameStr)
+        classifierResult = classify0(vectorUnderTest, trainingMat, hwLabels, 3)
+        print "the classifier came bakc with : %d , the real answer is : %d" % (classifierResult, classNumStr)
+        if(classifierResult != classNumStr):
+            errorCount+=1.0
+    print "\n the total number of errors is : %d" % errorCount
+    print "\n the total error rate is : % f "% (errorCount/float(mTest))
