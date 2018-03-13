@@ -1,6 +1,7 @@
 #coding:utf
 
 from math import log
+import operator
 
 #决策树
 
@@ -81,6 +82,7 @@ def calcShannonEnt4(dataSet):
     num = len(dataSet)
     labelCounts = {}
     for data in dataSet:
+        currentLabel =data[-1]
         if currentLabel not in labelCounts.keys():
             labelCounts[currentLabel] = 0
         labelCounts[currentLabel] += 1
@@ -216,65 +218,69 @@ def chooseBestFeatureToSplite(dataSet):
             bestFeature = i
     return bestFeature
 
+
 def chooseBestFeatureToSplite1(dataSet):
-    numFeature= len(dataSet[0])-1
+    numFeature = len(dataSet[0]) - 1
     baseEntropy = calcShannonEnt(dataSet)
     bestInfoGain = 0.0
     bestFeature = -1
     for i in range(numFeature):
         featureList = [example[i] for example in dataSet]
         uniqueVals = set(featureList)
-        newEntropy= 0.0
-        for value in uniqueVals:
-            subDataSet = splitDataSet(dataSet,1,value)
-            p = len(subDataSet)/float(len(dataSet))
-            newEntropy+=p*calcShannonEnt(subDataSet)
-        infoGain = baseEntropy-newEntropy
-        if(infoGain>bestInfoGain):
-            bestInfoGain = infoGain
-            bestFeature=i
-    return bestFeature
-
-def chooseBestFeatureToSplite2(dataSet):
-    numFeature = len(dataSet[0])-1
-    baseEntropy = calcShannonEnt(dataSet)
-    bestInfoGain = 0.0
-    bestFeature = -1
-    for i in range(numFeature):
-        featureList =[example[i] for example in dataSet]
-        uniqueVals = set(featureList)
         newEntropy = 0.0
         for value in uniqueVals:
-            subDataSet = splitDataSet(dataSet,1,value)
-            p = len(subDataSet)/float(len(dataSet))
-            newEntropy+=p*calcShannonEnt(subDataSet)
-        infoGain = baseEntropy-newEntropy
-        if(infoGain>bestInfoGain):
+            subDataSet = splitDataSet(dataSet, 1, value)
+            p = len(subDataSet) / float(len(dataSet))
+            newEntropy += p * calcShannonEnt(subDataSet)
+        infoGain = baseEntropy - newEntropy
+        if (infoGain > bestInfoGain):
             bestInfoGain = infoGain
             bestFeature = i
     return bestFeature
 
-def chooseBestFeatureToSplite3(dataSet):
-    numFeature = len(dataSet[0])-1
+
+def chooseBestFeatureToSplite2(dataSet):
+    numFeature = len(dataSet[0]) - 1
     baseEntropy = calcShannonEnt(dataSet)
-    bestInfoGain =0
+    bestInfoGain = 0.0
+    bestFeature = -1
+    for i in range(numFeature):
+        featureList = [example[i] for example in dataSet]
+        uniqueVals = set(featureList)
+        newEntropy = 0.0
+        for value in uniqueVals:
+            subDataSet = splitDataSet(dataSet, 1, value)
+            p = len(subDataSet) / float(len(dataSet))
+            newEntropy += p * calcShannonEnt(subDataSet)
+        infoGain = baseEntropy - newEntropy
+        if (infoGain > bestInfoGain):
+            bestInfoGain = infoGain
+            bestFeature = i
+    return bestFeature
+
+
+def chooseBestFeatureToSplite3(dataSet):
+    numFeature = len(dataSet[0]) - 1
+    baseEntropy = calcShannonEnt(dataSet)
+    bestInfoGain = 0
     bestFeature = -1
     for i in range(numFeature):
         featureList = [example[i] for example in dataSet]
         uniqueVals = set(featureList)
         newEntropy = 0
         for value in uniqueVals:
-            subDataSet = splitDataSet(dataSet,1,value)
-            p = len(subDataSet)/float(len(dataSet))
-            newEntropy += p*calcShannonEnt(subDataSet)
-        infoGain = baseEntropy-newEntropy
-        if(infoGain>bestInfoGain):
-            bestInfoGain= infoGain
+            subDataSet = splitDataSet(dataSet, 1, value)
+            p = len(subDataSet) / float(len(dataSet))
+            newEntropy += p * calcShannonEnt(subDataSet)
+        infoGain = baseEntropy - newEntropy
+        if (infoGain > bestInfoGain):
+            bestInfoGain = infoGain
             bestFeature = i
     return bestFeature
 
+
 def chooseBestFeatureToSplite4(dataSet):
-    numFeature = len(dataSet[0])-1
+    numFeature = len(dataSet[0]) - 1
     baseEntropy = calcShannonEnt(dataSet)
     bestInfoGain = 0
     bestFeature = -1
@@ -283,12 +289,46 @@ def chooseBestFeatureToSplite4(dataSet):
         uniqueVals = set(featrueList)
         newEntropy = 0
         for value in uniqueVals:
-            subDataSet = splitDataSet(dataSet,1,value)
-            p = len(subDataSet)/float(len(dataSet))
-            newEntropy += p*calcShannonEnt(subDataSet)
-        infoGain = baseEntropy-newEntropy
-        if(infoGain>bestInfoGain):
+            subDataSet = splitDataSet(dataSet, 1, value)
+            p = len(subDataSet) / float(len(dataSet))
+            newEntropy += p * calcShannonEnt(subDataSet)
+        infoGain = baseEntropy - newEntropy
+        if (infoGain > bestInfoGain):
             bestInfoGain = infoGain
-            bestFeature=i
+            bestFeature = i
     return bestFeature
+
+
+#3.1.3递归构建决策树
+def majorityCnt(classList):
+    classCount = {}
+    for vote in classList:
+        if vote not in classCount.keys():
+            classCount[vote] = 0
+        classCount += 1
+    sortedClassCount = sorted(
+        classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return sortedClassCount[0][0]
+
+
+def majorityCnt1(classList):
+    classCount = {}
+    for vote in classList:
+        if vote not in classCount.keys():
+            classCount[vote] = 0
+        classCount += 1
+    sortedClassCount = sorted(
+        classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return sortedClassCount[0][0]
+
+def majorityCnt2(classList):
+    classCount= {}
+    for vote in classList:
+        if vote not in classCount.keys():
+            classCount[vote]=0
+        classCount +=1
+    sortedClassCount = sorted(
+        classCount.iteritems(),key=operator.itemgetter(1),reverse=True)
+    return sortedClassCount[0][0]
     
+        
