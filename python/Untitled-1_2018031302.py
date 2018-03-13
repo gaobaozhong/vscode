@@ -9,3 +9,7 @@ print trees.calcShannonEnt(dataSet)
 dataSet[0][-1] = 'tom'
 print dataSet
 print trees.calcShannonEnt(dataSet)
+
+print trees.splitDataSet(dataSet,0,1)
+
+print trees.chooseBestFeatureToSplite(dataSet)
