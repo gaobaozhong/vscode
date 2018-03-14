@@ -305,7 +305,7 @@ def majorityCnt(classList):
     for vote in classList:
         if vote not in classCount.keys():
             classCount[vote] = 0
-        classCount += 1
+        classCount[vote] += 1
     sortedClassCount = sorted(
         classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
     return sortedClassCount[0][0]
@@ -316,7 +316,7 @@ def majorityCnt1(classList):
     for vote in classList:
         if vote not in classCount.keys():
             classCount[vote] = 0
-        classCount += 1
+        classCount[vote] += 1
     sortedClassCount = sorted(
         classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
     return sortedClassCount[0][0]
@@ -326,9 +326,57 @@ def majorityCnt2(classList):
     for vote in classList:
         if vote not in classCount.keys():
             classCount[vote]=0
-        classCount +=1
+        classCount[vote] +=1
     sortedClassCount = sorted(
         classCount.iteritems(),key=operator.itemgetter(1),reverse=True)
     return sortedClassCount[0][0]
     
-        
+#3-4 创建树的函数代码
+def createTree(dataSet,labels):
+    classList = [example[-1] for example in dataSet]
+    if classList.count(classList[0])==len(classList):
+        return classList[0]
+    if len(dataSet[0]) == 1:
+        return majorityCnt(classList)
+    bestFeature = chooseBestFeatureToSplite(dataSet)
+    bestFeatureLabel = labels[bestFeature]
+    myTree = {bestFeatureLabel:{}}
+    del(labels[bestFeature])
+    featureValues = [example[bestFeature] for example in dataSet]
+    uniqueVals = set(featureValues)
+    for value in uniqueVals:
+        subLabels = labels[:]
+        myTree[bestFeatureLabel][value] = createTree(splitDataSet(dataSet,bestFeature,value),subLabels)
+    return myTree
+
+def createTree1(dataSet,labels):
+    classList = [example[-1] for example in dataSet]
+    if classList.count(classList[0])==len(classList):
+        return classList[0]
+    if len(dataSet[0])==1:
+        return majorityCnt(classList)
+    bestFeature = chooseBestFeatureToSplite(dataSet)
+    bestFeatureLabel = labels[bestFeature]
+    myTree = {bestFeatureLabel:{}}
+    del(labels[bestFeature])
+    featureValues = [example[bestFeature] for example in dataSet]
+    uniqueVals = set(featureValues)
+    for value in uniqueVals:
+        subLabels = labels[:]
+        myTree[bestFeatureLabel][value] = createTree(splitDataSet(dataSet,bestFeature,value),subLabels)
+    return myTree
+
+def crateTree2(dataSet,labels):
+    classList = [example[-1]] for example in dataSet]
+    if classList.count(classList[0])==len(classList):
+        return classList[0]
+    if len(dataSet[0])==1:
+        return majorityCnt(classList)
+    bestFeature = chooseBestFeatureToSplite(dataSet)
+    bestFeatureLabel = labels[bestFeature]
+    myTree ={bestFeatureLabel:{}}
+    
+    
+
+          
+

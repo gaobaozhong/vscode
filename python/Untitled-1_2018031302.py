@@ -13,3 +13,6 @@ print trees.calcShannonEnt(dataSet)
 print trees.splitDataSet(dataSet,0,1)
 
 print trees.chooseBestFeatureToSplite(dataSet)
+
+myTree = trees.createTree(dataSet,labels)
+print myTree
