@@ -1,5 +1,4 @@
 import trees_2018031303 as trees
-
 dataSet, labels = trees.createDataSet()
 print dataSet
 print labels

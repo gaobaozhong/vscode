@@ -2,7 +2,8 @@
 
 from math import log
 import operator
-
+import matplotlib
+import matplotlib.pyplot as plt
 #决策树
 
 #3.1决策树的构造
@@ -363,11 +364,11 @@ def createTree1(dataSet,labels):
     uniqueVals = set(featureValues)
     for value in uniqueVals:
         subLabels = labels[:]
-        myTree[bestFeatureLabel][value] = createTree(splitDataSet(dataSet,bestFeature,value),subLabels)
+        myTree[bestFeatureLabel][value] = createTree1(splitDataSet(dataSet,bestFeature,value),subLabels)
     return myTree
 
-def crateTree2(dataSet,labels):
-    classList = [example[-1]] for example in dataSet]
+def createTree2(dataSet,labels):
+    classList = [example[-1] for example in dataSet]
     if classList.count(classList[0])==len(classList):
         return classList[0]
     if len(dataSet[0])==1:
@@ -375,8 +376,45 @@ def crateTree2(dataSet,labels):
     bestFeature = chooseBestFeatureToSplite(dataSet)
     bestFeatureLabel = labels[bestFeature]
     myTree ={bestFeatureLabel:{}}
-    
-    
+    del(labels[bestFeature])
+    featureValues = [example[bestFeature] for example in dataSet]
+    uniqueVals = set(featureValues)
+    for value in uniqueVals:
+        subLabels = labels[:]
+        myTree[bestFeatureLabel][value] = createTree2(splitDataSet(dataSet,bestFeature,value),subLabels)
+    return myTree
 
-          
+def createTree3(dataSet,labels):
+    classList = [example[-1] for example in dataSet]
+    if classList.count(classList[0])==len(classList):
+        return classList[0]
+    if len(dataSet[0]) == 1:
+        return majorityCnt(classList)
+    bestFeature = chooseBestFeatureToSplite(dataSet)
+    bestFeatureLabel = labels[bestFeature]
+    myTree = {bestFeatureLabel:{}}
+    del(labels[bestFeature])
+    featureValues = [example[bestFeature] for example in dataSet]
+    uniqueVals = set(featureValues)
+    for value in uniqueVals:
+        subLabels = labels[:]
+        myTree[bestFeatureLabel][value] =  createTree3(splitDataSet(dataSet,bestFeature,value),subLables)
+    return myTree
+
+def createTree4(dataSet,labels):
+    classList = [example[-1] for example in dataSet]
+    if classList.count(classList[0])==len(classList):
+        return classList[0]
+    if len(dataSet[0]) == 1：
+        return majorityCnt(classList)
+    bestFeature = chooseBestFeatureToSplite(dataSet)
+    bestFeatureLabel = labels[bestFeature]
+    myTree = {bestFeatureLabel:{}}
+    del(labels[bestFeature])
+    featureValues = [example[bestFeature] for example in dataSet]
+    uniqueVals = set(featureValues)
+    for value in uniqueVals:
+        subLabels = labels[:]
+        myTree[bestFeatureLabel][value] = createTree4(splitDataSet(dataSet,bestFeature,value),subLabels)
+    return myTree
 
