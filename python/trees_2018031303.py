@@ -418,3 +418,36 @@ def createTree4(dataSet,labels):
         myTree[bestFeatureLabel][value] = createTree4(splitDataSet(dataSet,bestFeature,value),subLabels)
     return myTree
 
+def classify(inputTree,featLabels,testVec):
+    firstStr = inputTree.keys()[0]
+    secondDict = inputTree[firstStr]
+    featIndex = featLabels.index(firstStr)
+    for key in secondDict.keys():
+        if testVec[featIndex]==key:
+            if type(secondDict[key]).__name__=='dict':
+                classLabel = classify(secondDict[key],featLabels,testVec)
+            else: classLabel = secondDict[key]
+    return classLabel
+
+def classify1(inputTree, featLabels,testVec):
+    firstStr = inputTree.keys()[0]#定义一个变量，表示输入数的键的第一个值
+    secondDict = inputTree[firstStr]#通过这两个代码，就可以得到因为这是一个字典类型，所以就可以得到键对应的值，也就是那个根指向的树了，这个被称之为secondDict，因为整体树是一个字典类型，就是第二个字典了。
+    featIndex = featLabels.index(firstStr)#这是得到属性岁讴吟，也就是把第一个键对已经的类的索引号得到
+    for key in secondDict.keys():#得到树的键
+        if testVec[featIndex] == key:#测试如果属性索引的测试向量就是我们的健值
+            if type(secondDict[key]).__name__=='dict':#如果我们的兼职的类型就是一个目录
+                classLabel = classify1(secondDict[key],featLabels,testVec)#执行分类递归子树了。
+            else: classLabel = secondDict[key]#否则就是说，这个类就是我们要的键了
+    return classLabel
+
+def classify2(inputTree, featLabels,testVec):
+    firstStr = inputTree.keys()[0]
+    secondDict = inputTree[firstStr]
+    featIndex = featLabels.index(firstStr)
+    for key in secondDict.keys():
+        if testVec[featIndex] == key:
+            if type(secondDict[key]).__name__=='dict':
+                classLabel = classify2(secondDict[key],featLabels,testVec)
+            else: classLabel = secondDict[key]
+    return classLabel
+    
