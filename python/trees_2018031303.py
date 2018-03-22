@@ -398,14 +398,14 @@ def createTree3(dataSet,labels):
     uniqueVals = set(featureValues)
     for value in uniqueVals:
         subLabels = labels[:]
-        myTree[bestFeatureLabel][value] =  createTree3(splitDataSet(dataSet,bestFeature,value),subLables)
+        myTree[bestFeatureLabel][value] =  createTree3(splitDataSet(dataSet,bestFeature,value),subLabels)
     return myTree
 
 def createTree4(dataSet,labels):
     classList = [example[-1] for example in dataSet]
     if classList.count(classList[0])==len(classList):
         return classList[0]
-    if len(dataSet[0]) == 1：
+    if len(dataSet[0]) == 1:
         return majorityCnt(classList)
     bestFeature = chooseBestFeatureToSplite(dataSet)
     bestFeatureLabel = labels[bestFeature]
