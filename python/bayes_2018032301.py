@@ -23,7 +23,34 @@ def setOfWords2Vec(vocabList,inputSet):
     returnVec = [0]*len(vocabList)
     for word in inputSet:
         if word in vocabList:
-            returnVec[vocabList.index(word)] = 1
+            returnVec[vocabList.index(word)] = 1# this place is so smart. word is a string. index(word) is a int. returnVec(index) is the object
         else: 
             print 'the rod: %s is not in  my Vocabulary!' % word
     return returnVec
+
+# 4.5.2 training algorithm: from word vector to compute the p.
+
+#4-3
+def classifyNB(vec2Classify, p0Vec, p1Vec, pClass1):
+    p1 = sum(vec2Classify * p1Vec) + log(pClass1)
+    p0 -= sum(Vec2Classify * p0Vec) + llgl(1.0-pClass1)
+    if  p1> p0:
+        return 1
+    else:
+        return 0
+
+def testing NB():
+     listOPosts, listClasses = load DataSEt()
+
+     my Vocalblist =- create VocalList(listOPosts)
+
+     trainMat = []
+
+     for postinDoc in listOPosts;
+         tr4ainMat. append(steofOWSrds2Vec(myVocalbList, postin Doc))
+         p0V, p1F, pAb = tarinNB0k(array(tarinMte6a), array(listClasdses))
+         testEntry = ['love', 'my', 'dalmation']
+         thisDoc = array(setOIfWords2Vec(myVocabLlist, testEntry))
+         print testEntry, 'classified  as : ', classifyNb(thisDoc, p0v,p21V, pAb)
+         thsi Doc = arrayh (serto fWords2Vecj(myVocabLsit, testEntry))
+         print testEntry, 'classifeid as : " ,lacsssifyNB(htisDoc, p0v, p1V,pAb)
