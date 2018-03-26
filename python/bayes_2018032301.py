@@ -11,6 +11,7 @@
 # 你的话呢就意味着这个一是怎么解释呢，春天的树木至少适宜是这样子的，出现数目至少是一次，那出现一次的数目是多少呢？两次？然后他说还要二零中，他本来算的是所有所有出现的词的数目，二太少了，林志行担心闹钟可能不会出现，单词最多，那种可能全都是零，就这样子吧，失败有可能这样子提示下一出，由于太多很小的数相乘构成的，八，计算成绩的时候还太小，太小的时候他们成绩很想睡，床就会下溢出或得不到正确答案，我这还是个问题，我们可以用它长长是成很多小数，四舍五入得到的结果是零，这几个办法对于成绩取自然对数，就得重新取三个数呢？别成一b，等于一加乱bb，于是通过球队是哪几个避免下一出，或者是浮点数折路导致的错误，同时的存在，对处理不会有任何损失，了，对数太小了，结果取就可以解决，一，同时那层纱就是对处理都有两个损失，这里有个图484，他给出了x和x的曲线，在相同区域内同时增加或者减少，并且在相同点上取到极致，不同，但不影响结果哦，就可以把这个，系统就这个概率然后讲函数的简单就BS，这次搞伤了，是不是这样子的然后第一个kiss bye嗯，love， you电视可发一笔外币，他吃饭吃饭，这是向量，兔子理是道理是吧，销量转换成类，这什么意思，销量是这个意思吗？然后加一百，分别是那个什么就是那个我们的两个嗯词出现的概率的，闹完之后的商量，然后下来还有个p pass，这就是我们那个PC哦，PC w全都有了PC，wc全都有了没有，是的东西我，哦，这是要分类的项链，这里的销量明显，这是一个什么东西呢？这就是一个，轮到我们要判断他测试一下他是不是那种类型，哪种类型？然后我带你去啊，登上，然后mike，屁y这个，带图卡稀饭，要分类的销量是一个零一的，嗯，是个一，一组成的向量，一二组成的向量，然后乘以这个pp外壳，一外科，一外科，我们已经写好了，悟性文档中的词出现的频率成一个向量乘一个向量，什么意思？一个向量的销量位居相城，然后求和结果你皮卡司机了，漂亮，这什么意思？然后下来的话呢？如何如何啊，然后打pp是求和，然后也是相应的跟你商量个p0，然后沉吟道，一点去pk也没问题，如果p等于p0哇这个结果他们有三瓶酒的销量，然后得到了p货梯，大宇，难道他不考虑不考虑了？啊你？这两个故事中相同的可以样子好的我，函数，这是那个故事第二个，第二个的他的啊，然后有一个list，open， access，然后就开始叫那个卖wap，然后quit，这样话就可以把那个一个文档，然后转换成一个，嗯下面集合六点，然后就对你们这群卖车mx，然后呢？是现在把那个，嗯，nice，真的受的了这个文档，然后全部转换成集合，然后添加到，嗯，嫁到这个村里去，碧林，然后再把那个出卖，然后使用数字化转换，转换成数组哦的数字，然后，然后我带你去，这么快就得到几个和三个嗯字的那个，嗯，香的屁屁的屁屁，out了，在店里了，里面是love卖的吗？丹麦vs爱我的小狗狗，应该是这样子，上档次你等你，你兔然后卖，我看你，然后把这个case来看个例子v，我把你当成一个相应的，嗯像，嗯，这是一个数字，就是林一数字的，一二，然后你帮我看看是什么？下面是task，然后stop， it like thisitSB，你以为还有pp方便的话，我们可以看得出来啊，一，这两张是这个要分类的电量出case要清零零，这个吹牛你看一下哈，这不就是刚才那个骑单车的，我们使用的话呢，嗯，使用证好像那边，然后那个限定的事，我们回顾一下，他首先把这个矩阵转换成相应的，嗯，知道下一句跟这条数就能当个数，然后再得到，嗯，他的属性书，这单词数，然后下来的话能再直接用，然后用这个，我们要训练这个点，然后除以这个数，都喝出一点钟，的，嗯，我们的训练能到书，我，的你，像个律师的once，晚上的话就是我们说的那个，把数字把那个送给他了，死就是嗯嗯嗯呢，成，然后难不成嗯，把事情不处理，如果呢，等于放个屁，那就等于x，等一下哦，不带的你的我一下，但是不知道结果，俺会想你的的期待哦，我们通过这个程序都可以得到相应的概率，现在上概率了，然后叫人调一下带入到那个发生概率，还有我们要测试的那个大中，然后我们就可以得到我们想要的结果了，使用这个大批量的数字相乘的结果是什么意思？指的是元素相乘，就像两个月销量中的第一个元素相乘，然后将该值加到内存的对数据，最后比较类别的概率才会大概率，相应的类别标签不是很难哦，并刚才在忙，就是那个让我们测试的文档，文档就成为我们的pp外壳，几百块就已经是我们的新闻到了，单词出现的概率了，然后呢？我们再把这个数据乘那个，让我们的这个文档，这个数去一个什么结果啊，的商城，的，为何不给转换成头疼的，在将你的类别的，然后将该纸箱到类别的对手应该留下去，这条比较难懂啊，中午吃的对应值香香，然后把该局加大力度下去，然后比较累的概率返回，大概你的阴道内标签比较类别的概率，然后再返回打开对了，你多少钱干嘛对我来说是一个概率函数，叫congress潮州，以节省输入代码的时间哦，不知道哦，叔叔的一下结果对我是不？w的，然后成立PC的是，办公室，在身上出现多少了你出现的，哥和，一个向量乘向量，那就是得了，嗯的，呵呵！的什么？去不你，两个相加，商城，就是这个学校处理，一他的，的，出来，说，问题，是，嗯，是可以的，你不？你思考一下，如果结束了，你想来的话，准备数据轮到慈善国行，我们家每个词出现于否，做了一个特征，瓷器模型的3.55，二四楼，容易出现，不止一次得一位的盖茨出现在文档中所不能表达的愤怒信息，这个方法称为磁带模型，玩什么的在？每个单词可以出现多次在此句中的每个单词只能出现一次，考虑一下那个瓷砖的数目，就是光晒的话，就只考虑它是否出现，为了适应目前的话，需要对海树snow white进行修改图给出了模型的代码，to mike几乎完全相同的单词，而不是相对应的数值设为一，好办个what，m，他说他的参数类型，一个是我看的是列表此类的次的全，然后呢，我耳朵都疼，对于此事里面所有的词，然后看一下是否出现在这里面，就加一加一姑娘好了，邮件哦，这个是四点五点四的内容，我们修改一下这个pos贷模型，然后这样的话，我们现在一个词，它的值，32他有可能是1120号，现在可能是一和二呢，还是这个样子，在我们家附近来4.6提醒一个不呢，我的听歌，电视呢，1到4的话呢，主要是出于三个，还有一个是创建一个测试鸡吧，已经第二个可以让我看到类似的话，送你一个你的，我们是一级转换成了一个，他们是一级我们二货都能等，然后转换成一个集合列表，因为它是重复的这个site，再把那个我们得到了
 # 4.6，这还是一个势力，要使用贝叶斯朴素贝叶斯来过滤垃圾邮件，是解决了一些现实生活中的问题，主要是从文本内容列表，然后再生成词向量，在这个例子中，我们将而作为一个电子邮件，垃圾过滤来看一下，是否能够解决这个问题，嫁了依然是通用的，我们绝不走第一步，收集数据，第二部准备数据，第三步分析数据，第四步训练法，第五步测试算法，第六步实用算法，底部的数据数据呢，这里要使用的是电子邮件的话，没有得到电子邮件的数据库，准备出去的话，同样的事，把它们转换成相应的词条向量，我们这边准备数据使用了三个函数在这里的话呢，可能要用一下，你现在不是这样的，日子中并没有分析，就没有展示数据。八上班来到我们的根基，嗯，然后我们使用我们的BS，然后来进行一个分类，最小的一个是否准确？修缮法，我们现在就准备要实用三房，什么算法呢？然后尝试者对文档进行分类，然后将其作为一个函数，该6.1准备数据的，在前一节介绍了如何创建词条，量着基于这些朴素贝叶斯分类的过程，在前一节中的材料是一些给定的，下面介绍的是从文本到文本文档中创建出自己的词列表，对一个文本字符串可以使用path类的，将它取名叫它划分，然后看看实际的运行效果，在干啥呢？我输入一下啊，就是不可以说他是不可能拍摄elleheart痛，然后直接使用sc的方法，然后就可以得到这个数字图词组成的一个一个list类型符号也被当成了词的一部分符号，这里可以使用正则表达式来区分，就是使用分隔符作为词数字之外的任意字符串，这里的阿姨就是那个好吧的，这什么意思呢，号词的列表是这个，然后我，然后，是这个有信号是什么呢？这个，这个是，是的是请好好的，最后一次是结尾吧，都是一次结尾的，他就把他给偷拍了，就应该把它识别出来，识别出来是这个样子，现在就可以得到一系列的词组成的，此表单里面的空字符串需要去掉，控制不住而需要去掉，二的长度大于0.2，哦这样子，脱口take， place，嗯，偷这个写法也是挺有趣的，它定义成一个变量的变量的话，能直接是那个这个list中的猿族，那就是元素，然后呢？后面加个QQ判断爱人top这个单词是大写的，如果目的是，就是查找有用，不还是出在中间还是结尾还是开头方法可以打游戏，比如说使用字符串的方法就可以达到目的，我们可以进行如下处理，拖个点漏，就这个了，还是说他因为top，然后就可以得到四个单，得到的人本就不要了，完整的电子邮件的实际处理结果，该数据集的存放在文件夹中，两个子文件夹m，等于pro6s然后呢s的，在露天市场的一种邮件，最需要注意的方案，由于这里有个l，ml然后问候一声，o等于0，嗯，然后安的office等于174623的一部分，因此会出现一个会ps的单词，当队员有一个划分的时候，你会得到很多的时候，我们想要去掉这些单词，因此在实际中会过滤掉长度小于三的字符串，ok，等你生了一个通俗的文本解析规则来实现这一点，在设计过程中的需要用更高级的管理起来，对诸如ak6号又要进行处理，目前一个月二岁中会缺席成为词汇表中的单词，比如点wap.com，解析，可能是一个相当复杂的过程，简单的函数也可以根据情况进行修改
 # 四点六点二测试算法使用朴素，贝叶斯进行交叉验证，下面的江伦敦及其他，集成到一个完整的体系中去打开文件分析系统则将下面的程序，其他的代码证加到这个PSP的文件中去，这程序清单四高五的内容，我们现在要使用他的号，第一个test pass我们分析他然后倒入这个阿姨，然后呢，it对于it，谁用的这个杯子，然后这次他话费的时候呢，他第一个参数是对的，我们的20个w信号不好，这里的他注意到这里，他使用的是一个加了一个二，这一段是取消转一次的意思取消那个，嗯，都穿着短衣服的意思，嗯，因为这里有一个斜杠w我们这些高的话就是买衣服，他家老二之后，他就不需要再写这双鞋高这话一个是以我的结尾办公室，然后pick up late night，嗯，对于这个情况的话，我们就可以得到一个，嗯，所有的大于二的消息，这样的一个本本的自传，然后定下一个大pos，就是病毒，病毒和垃圾邮件test这个函数了，这就是一个叫什么的，就是测试函数，嗯，可方便还书吗？然后第一个第一行代码，第一个doctor，ws的意思是一个列表，然后cosplay的队形列表，然后feat，打枪的，这都是个例子，然后爱赛尔号开始循环和锐志126126226这什么意思？号126260345吗？来看一下吧，然后what，what是什么呢？test， test他QQ说，他要打一个，转换成为，词列表点来看一下第的哦这样子哦的，打开一个文件夹下的文件，文件的话两套这里使用了一个套子里的人，为什么是126呢？是因为他的8月份本名啊，本名就是126，脱口而出的话，那就给打开了打开之后的文件，然后点锐的，好了，就可以打开一个文件，然后再通过这台4s店把它转换成资料，就得到一个list好，然后得到之后呢，然后进行处理，然后呢把文本列表s，我说的是doctor一下，好像是的，的清楚，然后把这个加进来，估计他要娶一个集了，然后kiss，然后继续kiss一日志里的，他娶的是这个疼啊，然后继续what，然后这里要再去从汉墓里面走，还没有正常的邮件吧，然后我们看着，然后这里肯定是最后那副太子爷家了，最后的840499360，不知合适的话，我们就可以把所有的文件，然后病毒和那个相应的正常文件全部导入了，因为它们都放到家中，我们这里的就是正常的，就知道它们的分类，这样的话卡斯特做出来了都，帮我找下，读完之后的数据处理完了，继续玩下去，我开个list，我看breast，这里是我们的慈善的列表，这里我们直接使用那个可以透过case，我们之前定好的函数把这个我们的doctor，转换一下我们的词下载列表最好，这里这个慈善的列表就是取消重复的，此之后，然后这个春色的，然后在第一个case就是个训练基地，现在觉得有什么的古诗，50就是这种事可是一到五十零到49，还不知道什么用处，然后test是空的，我不爱跟你对质，一个是从领导是从0到9，然后开始循环，然后就认定一个随机的说一句随机的摄影师，哦，他随机取值，从区局，然后做增量部分，一会又来做训练，你不用来做测试，嗯tm的flame听铃声，春季赛的就是训练机，那就是长度，知道与否，随即指给玉凤这个随机的故事，规格规格，然后从零开始零是训练机，训练器去训练，其他给了一个是不是？月租50，就从这个0到50中，然后取一个随机数，然后做了一个x，随即直的，所以值这个对恩，然后继续kiss，然后得到一个测试及测试方法，然后把这个翠绿色的，x把这个训练机中的索引值，然后添加到这个测试机里面去，然后delete，然后吹牛，然后这个男的应该，然后再把这个训练集中的这个数，所以只按删掉账号就可以得到一个，这是50个数中，除了十个数那个两个鸡，一个是这个test下面的这个大队出色的是一个数字化，就是索引号是哪一个列表列表给我下了这个车，迈腾迈腾，这就是一个训练矩阵，这是我们的训练，我们现在已经得到了，这个才是，我们要把那个真正的这个文档和累以后的车开来，这样我就可以放心还了，如果这个，如果是在测试集中的所有的所有，那这个忒慢了一下，这个函数叫seven two week，这个函数的作用呢，就是把那个我们的命运，把我们的，嗯，对就是那个字，就把我们的一个新的措施的一个，嗯，ws这里就是我们的人，一个文件一个文档，然后呢转换成相应的向量啊，这里呢，可以看到第一个参数就是这个，我看please，我们之前得到的那个，这样的，我应该我都笑了啊，然后呢这个抖s然后他才说是doctor x，这是我们在训练集中的这个文件取出来，然后把它转换成相应的，嗯，相应的数字销量，然后听到这个吹mic，然后这个卡现在也同样是缘分的，然后把caster，把case里面的这个到北京34号寄出来一下就是丢了我们的青春，它的背上有两个，第一个是我们的训练机，我们的训练器数字取证，然后第二个是我们的类列表，这里都要使用二维数组，然后来把它组装起来，这样我们都得到之后呢，就开始用这个车nb了，蜕变之后就可以求出那个，然而不同类别的以及我们的，然后类别的那个销量概率及，我们的病毒邮件就像概率，ok，那定一个错误错误数，这时候就开始准备测试了s，对于，嗯，所以这是啊，然后开始其他的值，然后可以把这个black list他动的是我的那个收音机哦，x，这个数据下载速度能到一个一个一个what，嗯，之后呢，可以判断了，如果刚开始带bb，这个很容易玩的开，是个what，放屁，PS2个都带去推迟若不等于3xx，那我们就说这个l号的就加一了，不说话呢，然后最后的话打印一下错误率是多少？这个错误数除以像我们的总共的那个case的数，这样我们就可以得出第一个大写为的，谢谢您的自动化处理的文件销量一个是几个月训练机，都是随机选出的，本周共有506000多选择为测试集分类精选辑中的文档来完成吹牛，我们从随机数中选出十个文件，选择出的数字，对应的人大量的测试及录取，同时也从七点就被踢出，这种随机选择数据的一部分面积作为测试，这回老子cos你的表的这次在吹牛比零还是多用计算分类所需要的概率，然后的遍历测试，及对其中每封电子邮件进行分类，如果邮件分类错误的错误，加医疗的错误数的百分比，现在对上证经常是，我们怎么接下来的话呢？就需要使用这样的代码来做，第一个掉那个BS啊，直接叫他然后出了树林，是什么开始在掉一次，然后我们这里可以说可以得到一个分类错误吧，说这个home basic english我给你听w and kiss you keep anlove you as you lovetest name，就stop and life，l is点一，因此出现一个错误，0.1输出在石峰随机选择的里面的分类错误率，然后这些邮件是随机选择的，结果没有差别的话，还是会给出错误分到的资料，这个错误，如果想更好的估计错误率，那么就应该是上述过程重复多次，比做十次，然后求平均值，我这么做了一下后出现的错误就是将垃圾邮件误判为正常，相比之下邮件要比这边好，错误的有多种形式来进行修正，分类器讨论，目前我们已经使用了case进行分类，接下来的话就是他的另一个应用，下个月才会展示，如何解释，不是佩森一起训练得到的知识，好吧，我们使用的是这个葡萄ps来进行那个垃圾邮件的测试，这里我们写两个函数的函数是叫cass，这里只是把文本转换成一个大文本，转换成字符串出租车的那份表，这里他主要是处理了一下，还是用的那个轴的表达式，把那一些一些一些自己不想要的数据进行清洗啊，你说字符小于两个的，这个一般表示特殊符号，对于要做一个应用之类的话，这样的坚持，我饿着，还有一个就是这个test，这是主函数了，今晚的话题就是我们首先要创建我们的数据，就是收集收集数据的数据的话，这个过程的话呢，这里直接使用的是这个，嗯方法打开文件，然后使用就可以得到一个字符串，然后之后呢，然后使用这个之前我们定好的cast，就可以把这个整个文本，然后转换成我们清洗过之后的一个词列表，吃吃那个吃得了，然后再把这个策略倒呢方法，然后变成一个矩阵，变成一个一个一个矩阵，然后呢？接下来的话再把我们的那个方法得到全部的词，然后再把我们的case也得到了，然后得到之后呢，这是第一部，第一部，第二部的话就是我们要精英今天那个飞机了，这个是衣服洗完了啊，这样的话下一步就是使用这个，好what time， is it，要把我们的文本然后处理，把我刚才得到的这个，嗯，这个矩阵矩阵，然后能转化成为我们想要的这个，嗯，磁县列表，此项列表，因为这个里面有重复的代码，重复的去掉还能集合吗？然后再往下的话，那就开始做一个，把我的数据在进一步处理了，我们现在收集的话，你就说现在有50个文件，犹如50个门诊，如果是文本的话，那我们现在就需要，嗯，从0到50，然后随机取区分一下区分的时候是这么区分的，然后其中首先取林老师，然后呢？把他们叼紧随机的值来1%的值的话呢，然后作为添加到什么车上有个test，谁能娶到领导029然后，然后得到一个随机的值，都要，一直都是一个孙燕姿最大生命值的话，能再把我们这个值的话能贴到一个test的领取，然后再把我们的训练赛中的这个，所以只敢再删掉，这样我就知道两个一个是训练机，然后一个是十个测试机，这话应该是40个，七年级十个三十几，然后接下来就把这个我的收音机，嗯，再送一下所有的春运证，然后把每篇文档的话都是用那个我们想要的那个用了，现在接下来的话要使用我们的方法的话，必须要得到一个，嗯数据黑哥类的列表，我列表好好的，这样来做，使用这个，然后再到work的方法，这个函数的话呢，他把我们的每一个文档，根据我们的case，我看的list，然后进行了一段，处理，然后你得到几个我们的车卖了，累的话也是一样的，得到相应的列表，然后这样的话我们就使用我们的车，一方法就会得到我们的，嗯，三个概率等我上个月花了，我们家来在说我们的咖啡分地方吧，这边我是个函数，第一个参数就是我们要测试的那个测试等功能的这个词，原本的话也要使用那个什么，要是用舌头外吐奶的方法，我先把它转换成数字的，然后呢，带你去之后就可以得到一个判断一下是不是指定好的测试类，要出错率哦，这个方法就是我们今天讲的，这就是使用ps进行邮件的调查验证概念，这个要知道，
+# 第一个绿色的是通过过滤网站的，可以留言，第二个是过滤垃圾邮件，见过有人使用的，是从他喜欢或不喜欢女性的社交网站中学习相应的分离器，然后利用该分类器的测试他是否喜欢一个陌生女人，分类的可能应用确实很多，比如说有证据表示人的年龄越大，它有怎样的词语越好，那么可以自己一个人用此来推测她的年龄吗？周杰伦之外还有还有问是否有其他家暴案，国康把，我想知道有关于一个人的特定人口统计信息，一个人更好的定义对象的推销广告，从哪里可以获得这些训练数据呢？事实上，互联网上拥有大量的训练数据几乎任何一个能想到的，都有专业的社区，很多人会认为自己属于该社区，2465919中的狗类的爱好者网站就是一个非常好的例子，在这个例子中，我们分别从美国的两个城市中选取一些人，通过分析这些人发布的广州广告信息，来比较这两个城市的人们在广告用词上是否不同，然后结论确实是不同，让他们各自常用的词有哪些？从人类常用的英文词中，我们能否对不同城市的人所关注内容有所了解，好车厘子是很有趣啦，要看一下人们说的话，是不能反映出一个城市特色，然后还要把那个人们最常用的话用的磁盘退出来，奥特利子要使用不是个意思，来发现d相关的用词，我们获得从网上来获得数据，第二个数据将数据集成为此向量，然后分析数据一下，然后直接使用，然后这次是首次在法我们测试的处理，而且保证各方立即可用，然后使用算法构造一个完整的程序来封装一下我们的这个内容，他们家只有两个城市的广告，还接了一个分离器分离出的效果，我们的目的是使用该分类进行分类，通过他词条和条件概率，只能发泄于特定城市相关的内容，好的数据，首先是导致我们的数据文本数据，在坐地铁时使用的文本性好的，利用我这个2s这个技术可以将文本会得到，我们需要的是一个SB，那边有个叫小飞的爬，哪个SB酷酷狗的我下面的那时候，这个kiss上了个广告，被你pass了，你要286plus，我决定使用这个case的内容可以查阅，怕损坏其中出色的昆仑道以及s6的列表输入yy，然后呢可以构建一个类似于battle，还是出来测试过程自动化，打开编辑器v，下面是陈丹436，20元分六期，极高频词去除函数带咔咔猫飞kiss最高平台数，然后拆除，这个是个what，这个我们的词删掉词，十几个销量表，然后第二个是这个feel全文，然后不疼之然后下来是福坤坤的高频的词典让定义成一个，这是一个什么猫科，然后从我们的所有的相做错的那个词的集合列表中，然后等了一个词，提出来，把这个我们的高频词pk，嗯，然后吧，就等你她的财产权利的抗争，这个出现的个数，然后把它放到这个飞昆，这个四点钟这次严重使用这个函数排序，然后tm，然后问一下内容，这是内容，然后呢？嗯，声音属性兔这就表示道喜是吗？到时当然得从高到低，我们看他要取钱多少，那我们又多了一个双腿都不困啊，就是一个飞昆CDv，他的一个道具就是出现的频率，出现的个数的计数器的，那个表大夫，洛克威尔，给另外一个变量叫本地的词参数，一个参数要飞的土林，然后飞到他身边，然后，然后，都是为你好，今天空列表，然后这个冷得要命，能睡得晚，h，love玲最小的长度使用了这个命函数，然后取得零，这两个，这两个集合，这两个字点安全的h的值，超度他睿智的，得，然后what，s，我，然后得到一个，这一个词，然后后面还有一个三个人，这个就有点复杂了啊，哦，这里面肯定是一个非常复杂列表，或者24集合，这三位都发来，就是第一个这个，这个位置的，所以的一个总和，通过test pass就可以把它得到转换成一个，嗯what is it哦以及说xx都得到了，嗯，应该是成功的，不成功的，不喜欢的这个的你的，然后我们得到了两个，那个得到了两个不同种类的那个，what，和那个嗯，再通过cat walk，what， about，然后创建这个下列表，然后我们得到一个过，你的问题处理呢，把那个所有的好的坏的全都收到一起去了，以前的时候，我们和kindle的时候适合fixed是不一致的，问题，我还没问题，之前也是这样子哦，主要是你去了也是一样，这可以，我看不了，这个网络掉了的，这个我看过了，第一个是老爹不，然后的，的这个set好二是什么呢，你我的，喝把那个任何一个，轮到变成了一个善良，这个词，数字销量43辆，就是直接使用创建我们的论文的类型等等的，然后来生成一个，哦，what，这样就得到一个嗯集合，我考虑设计和列表，然后再根据这个case，我可累死了，然后然后test，出现的次数，用的次数，有一个词出现的次数就可以得到了，他说得到30万应该是排序中排序前30的房间开始的时候我注意到了，嗯，30个单词我，然后留下来的画作训练及确切的范围是最小程度的两杯呢？得到了好几个h的个数，这个飞的灵魂是什么东西不太清楚，估计话是属性好吧，这就够大了，然后他就一空的附近做爱等于200到20号，十的他20个，然后加了个饭团在方法，然后再睡，再来一遍，现在再把那个数据啊，然后使用我们的，对他说的是半个word to back还没有方法，又说他这里不单单是生成相应的那个只吃了几盒了，2:20吃的，带劲磁带的集合，磁带机的有商量，杜蕾斯的那个磁带机的一个销量，到家的话，你再根据这个我们的，那就我们的这个举证和我们的类别，然后通过我们的村b，然后分类，七，以色列战机得到三个概率p0为p1和p43，然后他在QQ里了，然后这时候呢，对所有的日记，然后开始使用what，请办个welcome to my club然后使用这个方法，然后来判断一下，你知道一个词向量，然后使用这个kb每s MB然后把我们要测试的那个，嗯词向量，我们测试的磁通量，然后和三个概率放到一起，这样就可以使用的ps的故事，然后就得到一个结果，他是他属于哪一类？若他属于让我们这边的xx，所以这个case to me那我们就说真好，我不属于的话，那就两个字加一，然后最后打印一下这个出错率，账号的最后返回一个，我看please哦，p001有个屁用，v，哦这样子，上市代码的list中的spot的功能给这样做的原因是24时间改变，如果想要改变代码来比较程序之间的差异，就要使用相同的，重新加点儿时间会得到新的数据，但很难确定的原因还是疏远导致结果的改变，还是我老公儿子与成全中的start相同，然后是不知道，在这里访问的是21号文件，然后调用函数，它可能损坏来获取拍摄一出还是睡不着也猜不透的历史，不同的是这一行要返回下面的那句，你可以用于移除高分子的三行代码，然后比较重视前后的分类性能，我自己尝试了一下，觉得这一行代码之后发现错误率是54%，要给他满足，我看到一个邮件，就是这里留言出现次数最多的前三个字，涵盖了这个词的35%，进行测试的时候，我的大儿子大小约为3000个字，又说了一项，就占去了所有人的柚子，大部分的原因是因为语言的大部分都是用于机构辅助性的内容，另一个常见的问题是，不仅医术高明，此图是从某个预定此表中移除结构上的辅助词，该吃早餐都没听，如此屌丝pro lisa目前可以找到许多天的资料，江辰的代码加入到这PSP外之后，都可以通过相应的航行测试，就是娱乐的意思，然后是mc840plus，然后定定好相应的这个SB， notgoodnight miga然后SB s，SB SB SB s，然后我看please psppy，然后是憋死，那这时候得到一个哦，所以得到一个注册率是多少？为了得到抽利的球，估计应该多吃些，然后去体验这里的错误率要远高于发现邮件的错误的单词的概率，而不是实际分类，这个问题倒不是很严重，可以通过函数，情况，4672，分析数据显示地域相关的用词，这相对销量，ps和p miga排序，然后按照顺序把词打印出来，最下面的代码会把这份工作好像给我们，再继续的去为我们的PSP外支撑一千次的祈祷，是最具表征性的词汇的选择函数，带盖陶罐子vs两part，然后lucky we然后就得到一个logo， s这首，然后能靠谱，p我的啊，明天要发财是睡觉，说故事里她多了一个参数，有两个参数就是数据集市，那不是一路的样子下面这个二一下，然后不知道我是一个概率wipe，defy，韧皮零威，因为我们知道了这个事，嗯嗯，就是，嗯，有多少个词，多少个词长度，然后如果KTV的大鱼五六.0，品位概率，如果某个api恋爱如大于-6.0这个什么意思？是什么意思，她跟你吃啊，不知iPhone6，然后呢？plus还v，，的小心排序，把头白色就是s就是s这个SBSB这个链接，的，然后配啊，one，排序，我还没用过就可以等于num lock冒牌one，然后吐一下s，我说你听捧哏，喂排序听外名，坐车清单是放弃呢，还是该逃不过你的东西有两个数据暗示语音输入，然后训练并测试朴素贝叶斯分类器，两个月的，s大于五次，按照他们条件，该履行排序的运行情况，怎么可以得到一个结果，love time and *** you，x lite，to one意思的，哦，睡吧，本章小结，对于分类器而言的使用概率，有的时候要比英国的都有效率，以及BS政策提供了一个利用已知值，估计被指跟哪些方法可以通过特征之间的条件独立性假设，降低对数量的要求，是指一个词的出现概率，并不依赖于文档中的其他词，但是我们也知道你这个假设过于简单，也就是说之所以称之为朴素贝叶斯密，这个条件都不正确，但是普遍有效的利器，优秀的编程语言来实现，普遍是需要很多因素下去出去的一个重要问题，我们可以通过对概率取对数，难于解决，磁带模型，在9月份大类分类问题上比慈溪模型还有提高，还有其他一些方面的改进，比如说移除粉丝，当然也可以花大量时间对其分析及优化，那是一套的概率理论，将后续章节中进行使用，关闭了全面具体的介绍v，八，谢谢大家，
 from numpy import *
 
 
@@ -51,7 +52,9 @@ def setOfWords2Vec(vocabList, inputSet):
     returnVec = [0] * len(vocabList)
     for word in inputSet:
         if word in vocabList:
-            returnVec[vocabList.index(word)] = 1  # this place is so smart. word is a string. index(word) is a int. returnVec(index) is the object
+            returnVec[vocabList.index(
+                word
+            )] = 1  # this place is so smart. word is a string. index(word) is a int. returnVec(index) is the object
         else:
             print 'the wrod: %s is not in  my Vocabulary!' % word
     return returnVec
@@ -59,14 +62,19 @@ def setOfWords2Vec(vocabList, inputSet):
 
 # 4.5.2 training algorithm: from word vector to compute the p.
 
+
 def trainNB0(trainMatrix, trainCategory):
     numTrainDocs = len(trainMatrix)
     numWords = len(trainMatrix[0])
-    pAbusive = sum(trainCategory)/float(numTrainDocs)
-    p0Num = zeros(numWords)
-    p1Num = zeros(numWords)
-    p0Denom = 0.0
-    p1Denom = 0.0
+    pAbusive = sum(trainCategory) / float(numTrainDocs)
+    # p0Num = zeros(numWords)
+    # p1Num = zeros(numWords)
+    # p0Denom = 0.0
+    # p1Denom = 0.0
+    p0Num = ones(numWords)
+    p1Num = ones(numWords)
+    p0Denom = 2.0
+    p1Denom = 2.0
     for i in range(numTrainDocs):
         if trainCategory[i] == 1:
             p1Num += trainMatrix[i]
@@ -74,10 +82,11 @@ def trainNB0(trainMatrix, trainCategory):
         else:
             p0Num += trainMatrix[i]
             p0Denom += sum(trainMatrix[i])
-    p1Vect = p1Num/p1Denom
-    p0Vect = p0Num/p0Denom
-    return p0Vect,p1Vect,pAbusive 
-    
+    # p1Vect = p1Num/p1Denom
+    # p0Vect = p0Num/p0Denom
+    p1Vect = log(p1Num / p1Denom)
+    p0Vect = log(p0Num / p0Denom)
+    return p0Vect, p1Vect, pAbusive
 
 
 #4-3
@@ -103,47 +112,134 @@ def testingNB():
     testEntry = ['love', 'my', 'dalmation']
     thisDoc = array(setOfWords2Vec(myVocabList, testEntry))
     print testEntry, 'classified  as : ', classifyNB(thisDoc, p0V, p1V, pAb)
-    testEntry = ['a','stupid', 'garbage']
+    testEntry = ['a', 'stupid', 'garbage']
     thisDoc = array(setOfWords2Vec(myVocabList, testEntry))
     print testEntry, 'classified as:', classifyNB(thisDoc, p0V, p1V, pAb)
 
 
-
 def textParse(bigString):
     import re
-    listOfTokens = re.split(r'\w*',bigString)
-    return [tok.lower() for tok in listOfTokens if len(tok)>2]
+    listOfTokens = re.split(r'\W*', bigString)
+    return [tok.lower() for tok in listOfTokens if len(tok) > 2]
+
+
 def spamTest():
     docList = []
     classList = []
     fullText = []
 
-    for i in range(1,26):
-        wordList = textParse(open('D:\\Users\\gao\\Documents\\Code\\python\\digits\\email\\spam\\%d.txt' % i).read())
-        docList.append(wordList) 
+    for i in range(1, 26):
+        wordList = textParse(
+            open(
+                'D:\\Users\\gao\\Documents\\Code\\python\\digits\\email\\spam\\%d.txt'
+                % i).read())
+        docList.append(wordList)
         fullText.extend(wordList)
         classList.append(1)
-        wordList = textParse(open('D:\\Users\\gao\\Documents\\Code\\python\\digits\\email\\ham\\%d.txt' % i).read())
-        docList.append(wordList) 
+        wordList = textParse(
+            open(
+                'D:\\Users\\gao\\Documents\\Code\\python\\digits\\email\\ham\\%d.txt'
+                % i).read())
+        docList.append(wordList)
         fullText.extend(wordList)
         classList.append(0)
     vocabList = createVocabList(docList)
     trainingSet = range(50)
     testSet = []
     for i in range(10):
-        randIndex = int(random.uniform(0,len(trainingSet))) 
+        randIndex = int(random.uniform(0, len(trainingSet)))
         testSet.append(trainingSet[randIndex])
         del(trainingSet[randIndex])
     trainingMat = []
     trainingClasses = []
     for docIndex in trainingSet:
-        trainingMat.append(setOfWords2Vec(vocabList,docList[docIndex]))
+        trainingMat.append(setOfWords2Vec(vocabList, docList[docIndex]))
         trainingClasses.append(classList[docIndex])
-    p0V,p1V,pSpam = trainNB0(array(trainingMat),array(trainingClasses))
+    p0V, p1V, pSpam = trainNB0(array(trainingMat), array(trainingClasses))
     errorCount = 0
     for docIndex in testSet:
-        wordVector = setOfWords2Vec(vocabList,docList[docIndex])
-        if classifyNB(array(wordVector),p0V,p1V,pSpam) != classList[docIndex]:
+        wordVector = setOfWords2Vec(vocabList, docList[docIndex])
+        if classifyNB(array(wordVector), p0V, p1V,
+                      pSpam) != classList[docIndex]:
             errorCount += 1
-    print 'the error rate is : ', float(errorCount)/len(testSet)
+    print 'the error rate is : ', float(errorCount) / len(testSet)
 
+
+#4.5.4
+def bagOfWords2VecMN(vocabList, inputSet):
+    returnVec = [0] * len(vocabList)
+    for word in inputSet:
+        if word in vocabList:
+            returnVec[vocabList.index(word)] += 1
+    return returnVec
+
+
+# 4-6 RSS
+def calcMostFreq(vocabList,fullText):
+    import operator
+    freqDict = {}
+    for token in vocabList:
+        freqDict[token] = fullText.count(token)
+    sortedFreq = sorted(
+        freqDict.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return sortedFreq[:30]
+
+
+def localWords(feed1, feed0):
+    import feedparser
+    docList = []
+    classList = []
+    fullText = []
+    minLen = min(len(feed1['entries']), len(feed0['entries']))
+    for i in range(minLen):
+        wordList = textParse(feed1['entries'][i]['summary'])
+        docList.append(wordList)
+        fullText.extend(wordList)
+        classList.append(1)
+        wordList = textParse(feed0['entries'][i]['summary'])
+        docList.append(wordList)
+        fullText.extend(wordList)
+        classList.append(0)
+    vocabList = createVocabList(docList)
+    top30Words = calcMostFreq(vocabList, fullText)
+    for pairW in top30Words:
+        if pairW[0] in vocabList:
+            vocabList.remove(pairW[0])
+    trainingSet = range(2 * minLen)
+    testSet = []
+    for i in range(20):
+        randIndex = int(random.uniform(0, len(trainingSet)))
+        testSet.append(trainingSet[randIndex])
+        del(trainingSet[randIndex])
+    trainingMat = []
+    trainingClasses = []
+    for docIndex in trainingSet:
+        trainingMat.append(bagOfWords2VecMN(vocabList, docList[docIndex]))
+        trainingClasses.append(classList[docIndex])
+    p0V, p1V, pSpam = trainNB0(array(trainingMat), array(trainingClasses))
+    errorCount = 0
+    for docIndex in testSet:
+        wordVector = bagOfWords2VecMN(vocabList, docList[docIndex])
+        if classifyNB(array(wordVector), p0V, p1V, pSpam) != classList[docIndex]:
+            errorCount += 1
+    print 'the error rate i s:', float(errorCount) / len(testSet)
+    return vocabList, p0V, p1V
+# 4.7.2
+def getTopWords(ny,sf):
+    import operator
+    vocabList, p0V,p1V = localWords(ny,sf)
+    topNY=[]
+    topSF=[]
+    for i in range(len(p0V)):
+        if p0V[i]>-6.0:
+            topSF.append((vocabList[i],p0V[i]))
+        if p1V[i]>-6.0:
+            topNY.append((vocabList[i],p1V[i]))
+    sortedSF = sorted(topSF,key=lambda pair:pair[1],reverse=True)
+    print "SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**"
+    for item in sortedSF:
+        print item[0]
+    sortedNY = sorted(topNY,key=lambda pair:pair[1],reverse=True)
+    print "NY**NY**NY**NY**NY**NY**NY**NY**NY**NY**NY**NY**NY**"
+    for item in sortedNY:
+        print item[0]
