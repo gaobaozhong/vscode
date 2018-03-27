@@ -1,6 +1,6 @@
 {
     "python.linting.enabled": true,
     "python.formatting.provider": "yapf",
-    "files.autoSave": "onFocusChange"
-    "debug.allowBreakpointsEverywhere": true,
+    "files.autoSave": "onFocusChange",
+    "debug.allowBreakpointsEverywhere": true
 }
