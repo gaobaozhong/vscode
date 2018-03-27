@@ -9,10 +9,10 @@ def loadDataSet():
     fr = open(
         r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch05\testSet.txt'
     )
-    print 'fr:', fr
+    # print 'fr:', fr
     for line in fr.readlines():
         lineArr = line.strip().split()
-        print 'lineArr', lineArr
+        # print 'lineArr', lineArr
         dataMat.append([1.0, float(lineArr[0]),
                         float(lineArr[1])])  # 这里为什么要加一个第一列全1呢？
         labelMat.append(int(lineArr[2]))  # 这个属性没有问题
@@ -26,30 +26,30 @@ def sigmod(inX):  # 这里inX就是一个整形，不是的，这里这inX是inp
 def gradAscent(
         dataMatIn, classLabels
 ):  # 这里dataMatIn是一个输入的二位列表，第一维是100行，第二维是3列，分别是x0，x1，x2，这里代表的就是一个直线？这个直线有什么用，和我们的最后结果，以及和权值有什么关系？
-    print 'dataMatIn:', dataMatIn
-    print 'classLabels:', classLabels
+    # print 'dataMatIn:', dataMatIn
+    # print 'classLabels:', classLabels
     dataMatrix = mat(dataMatIn)  # 这里dataMatrix是一个矩阵
     labelMat = mat(classLabels).transpose(
     )  # 这里进行转置矩阵的原因就是，因为mat直接把一个列表转为矩阵之后，就是一个1行100列的矩阵，但是我们这里每一个类别对应的是100行3列的矩阵，所以，没一行是一个类别，所以，这里用了转置函数transpose，把列表转为了100行1列的矩阵
-    print 'mat(classLabels):', mat(classLabels)
-    print 'mat(classLabels).transpose():', mat(classLabels).transpose()
+    # print 'mat(classLabels):', mat(classLabels)
+    # print 'mat(classLabels).transpose():', mat(classLabels).transpose()
     m, n = shape(dataMatrix)  # 这里得到了矩阵的m,n,100,3
-    print 'm,n:', m, n
-    alpha = 0.1  #是步长，这个值是默认值，是经验值，很重要，决定了我们的执行速度和精度
+    # print 'm,n:', m, n
+    alpha = 0.001  #是步长，这个值是默认值，是经验值，很重要，决定了我们的执行速度和精度
     maxCycles = 500
     weights = ones(
         (n, 1))  #这是一个3*1的矩阵，就是一个n维，在这里就是100行，一列的1的矩阵，这是初始权值，也就是那个最基础的初始值
     for k in range(maxCycles):
-        print 'k:',k
-        print 'dataMatrix:',dataMatrix
-        print 'weights:',weights
-        print 'dataMatrix* weights:', dataMatrix * weights
+        # print 'k:',k
+        # print 'dataMatrix:',dataMatrix
+        # print 'weights:',weights
+        # print 'dataMatrix* weights:', dataMatrix * weights
         h = sigmod(dataMatrix * weights)
-        print 'h:', h
+        # print 'h:', h
         error = (labelMat - h)
-        print 'error:', error
+        # print 'error:', error
         weights = weights + alpha * dataMatrix.transpose() * error
-        print 'weights:', weights
+        # print 'weights:', weights
         # plotBestFit(weights.getA())
     return weights
 
@@ -67,9 +67,9 @@ def plotBestFit(weights):
     xcord2 = []
     ycord2 = []
     for i in range(n):
-        print 'i:',i
-        print 'labelMat[i]:',labelMat[i]
-        print 'dataArr[i]:',dataArr[i]
+        # print 'i:',i
+        # print 'labelMat[i]:',labelMat[i]
+        # print 'dataArr[i]:',dataArr[i]
         if int(labelMat[i])== 1:
             xcord1.append(dataArr[i,1])
             ycord1.append(dataArr[i,2])
