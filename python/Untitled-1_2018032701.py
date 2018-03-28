@@ -6,3 +6,4 @@ from numpy import *
 # print 'weights.getA():',weights.getA()
 # logRegres.plotBestFit(weights)
 logRegres.multiTest()
+
