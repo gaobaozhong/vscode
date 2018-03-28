@@ -19,7 +19,7 @@ def loadDataSet():
     return dataMat, labelMat
 
 
-def sigmod(inX):  # 这里inX就是一个整形，不是的，这里这inX是input X的意思，是一个向量。也就是一个列表类型
+def sigmoid(inX):  # 这里inX就是一个整形，不是的，这里这inX是input X的意思，是一个向量。也就是一个列表类型
     return 1.0 / (1 + exp(-inX))
 
 
@@ -44,7 +44,7 @@ def gradAscent(
         # print 'dataMatrix:',dataMatrix
         # print 'weights:',weights
         # print 'dataMatrix* weights:', dataMatrix * weights
-        h = sigmod(dataMatrix * weights)
+        h = sigmoid(dataMatrix * weights)
         # print 'h:', h
         error = (labelMat - h)
         # print 'error:', error
@@ -89,26 +89,28 @@ def plotBestFit(weights):
     plt.ylabel('X2')
     plt.show()
 
-# # 5-3
-# def stocGradAscent0(dataMatrix,classLabels):
-#     m,n =
-#     alpha =
-#     weights =
-#     for i in range(m):
-#         h =
-#         error =
-#         weights =
-#     return weights
-# # 5-4
-# def stocGradAscent1(dataMatrix,classLabels,numIter=150):
-#     m,n =
-#     weights = ones(n)
-#     for j in range(numIter):
-#         for i in range(m):
-#             alpha = 4/(1.0+j+i)+0.01
-#             randIndex =
-#             h = sigmod()
-#             error =
-#             weights =
-#             del()
-#     return weights
+# 5-3
+def stocGradAscent0(dataMatrix,classLabels):
+    m,n = shape(dataMatrix)
+    alpha = 0.01
+    weights = ones(n)
+    for i in range(m):
+        h = sigmoid(sum(dataMatrix[i]*weights))
+        error = classLabels[i] - h
+        weights = weights + alpha * error * dataMatrix[i]
+    return weights
+
+# 5-4
+def stocGradAscent1(dataMatrix,classLabels,numIter=150):
+    m,n = shape(dataMatrix)
+    weights = ones(n)
+    for j in range(numIter):
+        dataIndex = range(m)
+        for i in range(m):
+            alpha = 4/(1.0+j+i)+0.01
+            randIndex = int(random.uniform(0,len(dataIndex)))
+            h = sigmoid(sum(dataMatrix[randIndex]*weights))
+            error = classLabels[randIndex] - h
+            weights = weights + alpha * error * dataMatrix[randIndex]
+            del(dataIndex[randIndex])
+    return weights

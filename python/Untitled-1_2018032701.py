@@ -1,6 +1,7 @@
 import logRegres_2018032701 as logRegres
+from numpy import *
 
-dataArr, labelMat = logRegres.loadDataSet()
-weights =  logRegres.gradAscent(dataArr,labelMat)
+data_Arr, label_Mat = logRegres.loadDataSet()
+weights =  logRegres.stocGradAscent1(array(data_Arr),label_Mat)
 # print 'weights.getA():',weights.getA()
-logRegres.plotBestFit(weights.getA())
+logRegres.plotBestFit(weights)
