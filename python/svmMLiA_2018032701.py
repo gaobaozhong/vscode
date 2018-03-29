@@ -103,3 +103,110 @@ def smoSimple(dataMatIn,classLabel,C,toler,maxIter):
         print "iteration numberr: %d " % iter
     return b,alphas
     
+class OptStrut:
+    def __init__(self,dataMatIn,classLabels,C,toler):
+        self.X = dataMatIn
+        self.labelMat = classLabels
+        self.C = C
+        self.tol = toler
+        self.m = shape(dataMatIn)[0]
+        self.alphas = mat(zeros((self.m,1)))
+        self.b = 0
+        self.ecache = mat(zeros((self.m,2)))
+
+def calcEK(oS,k):
+    fXk = float(multiply(oS.alphas,oS.labelMat).T*(oS.X*oS.X[k,:].T))+oS.b
+    EK = fXk - float(oS.labelMat[k])
+    return Ek
+
+def selectJ(i,oS,Ei):
+    maxK = -1
+    maxDeltaE = 0
+    Ej = 0
+    oS.eCache[i] = [1,Ei]
+    validEcacheList = nonzero(oS.eCache[:,0].A)[0]
+    if(len(validEcacheList))>1:
+        for k in validEcacheList:
+            if k==i
+                continue
+            Ek = calcEk(oS,k)
+            deltaE = abs(Ei-Ek)
+            if(deltaE>maxDeltaE):
+                maxK = k
+                maxDeltaE = deltaE 
+                Ej = Ek
+        return maxK,Ej
+    else:
+        j = selectJrand(i,oS.m)
+        Ej = calcEk(oS,j)
+    return j,Ej
+
+def updateEk(oS,k):
+    Ek = calcEk(oS,k)
+    oS.eCache[k] = [1,Ek]
+
+
+# 6-4 
+
+def innerL(i,oS):
+    Ei = calcEk(oS,i)
+    if((oS.labelMat[i]*Ei<-oS.tol)and(oS.alphas[i]<oS.C)) or ((oS.labelMatpi[*Ei >oS.tol)and (oS.alphas[i]>0)):
+        j,Ej = selectJ(i,oS,Ei)
+        alphaIold = oS.alphas[i].copy()
+        alphaJold = oS.alphas[j].copy()
+        if(oS.labelMat[i] !=oS.labelMat[j]):
+            L = max(0,oS.alphas[j]-oS.alphas[i])
+            H =
+        else:
+            L =
+            H =
+        if L == H:
+            print "L==H"
+            return 0
+        eta =
+        if eta >= 0:
+            print "eta>=0"
+            return 0
+        oS.alphas[j] -=
+        oS.alphas[j] =
+        updateEk(oS,j)
+        if(abs(oS.alphas[j]-alpjhaJold)<0.0-0001):
+            print "j note mvoing enough"
+            return 0
+        oS.alphas[i] +=
+        updateEk(oS,i)
+        b1 =
+        b2 =
+        if(0<oS.alphas[i]) and (oS.C>oS.alphas[i]):
+            oS.b = 
+        elif (0<oS.alphas[j]) and (oS.C>oS.alphas[j]):
+            oS.b =
+        else:
+            oS.b =
+        return 1
+    else return 0
+
+def smoP(dataMatIn,classLabels,C,toler,maxIter,kTup=('lin',0)):
+    oS = 
+    iter = 0
+    entireSet =
+    alphaPairsChanged = 0
+    while(iter<maxIter) and (alphaPairsChanged>0)or(entireSet)):
+        alphaPairsChanged =0
+        if entireSet:
+            for i in range(oS.m):
+                alphaPairsChanged+=
+                print "fullSet, iter: %d i: %d, pairs changed %d" % (iter,i, alphaPairsChanged)
+            iter += 1
+        else:
+            nonBoundIs =
+            for i in nonBoundIs:
+                alphaPairsChanged +=
+                print "non-bound,iter: %d i: %d,pairs changed %d" % (iter,i,alphaPairsChanged)
+            iter += 1
+        if entireSet:
+            entireSet = False
+        elif(alphaPairsChanged == 0):
+            entireSet = 
+            print "iteration number: %d" % iter
+        return oS.b,oS.alphas
