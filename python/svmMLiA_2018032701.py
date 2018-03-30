@@ -1,5 +1,5 @@
 # coding:utf
-
+from numpy import *
 # 6-1
 # load data set
 def loadDataSet(filename):
@@ -54,7 +54,7 @@ def smoSimple(dataMatIn,classLabel,C,toler,maxIter):
             # 然后，基于这个实例的预测结果和真实值结果的对比，就可以计算误差Ei。
             Ei = fXi - float(labelMat[i])
             # 如果为误差很大，那么可以对该数据实例所对应的alpha进行优化。对该条件的测试处于上述清单的1处。在if语句中，不管正间隔还是副间隔都会被测试。 并且在该if语句中，也要同时检查alpah，以保证其不能等于0或者C。 后面alpah小于0或者大于C是将被调整为0或者C，所以一旦在该if语句中他们等于这两个值的话，那么他们就已经在“边界”上了。因此不能够减小或者增大，因此也就不值得对他们进行优化了。
-            if (((labelMat[i]*Ei < -toler) and (alphas[i] < C))or((labelMat[i].Ei > toler) and (alphas[i] > 0):
+            if (((labelMat[i]*Ei < -toler) and (alphas[i] < C))or((labelMat[i].Ei > toler) and (alphas[i] > 0))):
                 # 接下来，可以利用程序清单6-1中的辅助函数来随机选择第二个alpha值，alpha[j]，
                 j = selectJrand(i,m)
                 # 同样，可以采用第一个alpha值，alpha[i]的误差计算方法，来计算这个alpha的误差，这个过程可以通过copy（）的方法来实现，一次你稍后可以将新的alpha只和老的alpha只进行比较。python则会通过引用的方式来传递所有的列表，必须明确的告知python要alphaIold和alphaJold分配新的内存，否则的话，在对新值和旧值进行比较时，我们就看不到新旧值的变化。
@@ -103,7 +103,7 @@ def smoSimple(dataMatIn,classLabel,C,toler,maxIter):
         print "iteration numberr: %d " % iter
     return b,alphas
     
-class OptStrut:
+class optStruct: 
     def __init__(self,dataMatIn,classLabels,C,toler):
         self.X = dataMatIn
         self.labelMat = classLabels
@@ -112,11 +112,11 @@ class OptStrut:
         self.m = shape(dataMatIn)[0]
         self.alphas = mat(zeros((self.m,1)))
         self.b = 0
-        self.ecache = mat(zeros((self.m,2)))
+        self.eCache = mat(zeros((self.m,2)))
 
-def calcEK(oS,k):
+def calcEk(oS,k):
     fXk = float(multiply(oS.alphas,oS.labelMat).T*(oS.X*oS.X[k,:].T))+oS.b
-    EK = fXk - float(oS.labelMat[k])
+    Ek = fXk - float(oS.labelMat[k])
     return Ek
 
 def selectJ(i,oS,Ei):
@@ -127,7 +127,7 @@ def selectJ(i,oS,Ei):
     validEcacheList = nonzero(oS.eCache[:,0].A)[0]
     if(len(validEcacheList))>1:
         for k in validEcacheList:
-            if k==i
+            if k==i:
                 continue
             Ek = calcEk(oS,k)
             deltaE = abs(Ei-Ek)
@@ -150,63 +150,74 @@ def updateEk(oS,k):
 
 def innerL(i,oS):
     Ei = calcEk(oS,i)
-    if((oS.labelMat[i]*Ei<-oS.tol)and(oS.alphas[i]<oS.C)) or ((oS.labelMatpi[*Ei >oS.tol)and (oS.alphas[i]>0)):
+    if((oS.labelMat[i]*Ei<-oS.tol)and(oS.alphas[i]<oS.C)) or ((oS.labelMat[i]*Ei >oS.tol)and (oS.alphas[i]>0)):
         j,Ej = selectJ(i,oS,Ei)
         alphaIold = oS.alphas[i].copy()
         alphaJold = oS.alphas[j].copy()
         if(oS.labelMat[i] !=oS.labelMat[j]):
             L = max(0,oS.alphas[j]-oS.alphas[i])
-            H =
+            H = min(oS.C,oS.C + oS.alphas[j] - oS.alphas[i])
         else:
-            L =
-            H =
+            L = max(0, oS.alphas[j] + oS.alphas[i] - oS.C)
+            H = min(oS.C, oS.alphas[j] + oS.alphas[i])
         if L == H:
             print "L==H"
             return 0
-        eta =
+        eta = 2.0 * oS.X[i,:] * oS.X[j,:].T - oS.X[i,:]* oS.X[i,:].T - oS.X[j,:]*oS.X[j,:].T
         if eta >= 0:
             print "eta>=0"
             return 0
-        oS.alphas[j] -=
-        oS.alphas[j] =
+        oS.alphas[j] -= oS.labelMat[j] * (Ei - Ej) /eta
+        oS.alphas[j] = clipAlpha(oS.alphas[j],H,L)
         updateEk(oS,j)
-        if(abs(oS.alphas[j]-alpjhaJold)<0.0-0001):
+        if(abs(oS.alphas[j]-alphaJold)<0.00001):
             print "j note mvoing enough"
             return 0
-        oS.alphas[i] +=
+        oS.alphas[i] += oS.labelMat[j] * oS.labelMat[i] * (alphaJold - oS.alphas[j])
         updateEk(oS,i)
-        b1 =
-        b2 =
+        b1 = oS.b - Ei - oS.labelMat[i] * (oS.alphas[i] - alphaIold) * oS.X[i,:] * oS.X[i,:].T - oS.labelMat[j]* (oS.alphas[j] - alphaJold) * oS.X[i,:] * oS.X[j,:].T
+        b2 = oS.b - Ej - oS.labelMat[i] * (oS.alphas[i] - alphaIold) * oS.X[i,:] * oS.X[j,:].T - oS.labelMat[j]* (oS.alphas[j] - alphaJold) * oS.X[j,:] * oS.X[j,:].T
         if(0<oS.alphas[i]) and (oS.C>oS.alphas[i]):
-            oS.b = 
+            oS.b = b1
         elif (0<oS.alphas[j]) and (oS.C>oS.alphas[j]):
-            oS.b =
+            oS.b = b2
         else:
-            oS.b =
+            oS.b = (b1 + b2)/2.0
         return 1
-    else return 0
+    else:
+        return 0
 
 def smoP(dataMatIn,classLabels,C,toler,maxIter,kTup=('lin',0)):
-    oS = 
+    oS = optStruct(mat(dataMatIn),mat(classLabels).transpose(),C,toler)
     iter = 0
-    entireSet =
+    entireSet = True
     alphaPairsChanged = 0
-    while(iter<maxIter) and (alphaPairsChanged>0)or(entireSet)):
+    while(iter<maxIter) and ((alphaPairsChanged>0)or(entireSet)):
         alphaPairsChanged =0
         if entireSet:
             for i in range(oS.m):
-                alphaPairsChanged+=
+                alphaPairsChanged+= innerL(i,oS)
                 print "fullSet, iter: %d i: %d, pairs changed %d" % (iter,i, alphaPairsChanged)
             iter += 1
         else:
-            nonBoundIs =
+            nonBoundIs = nonzero((oS.alphas.A >0)* (oS.alphas.A < C))[0]
             for i in nonBoundIs:
-                alphaPairsChanged +=
+                alphaPairsChanged += innerL(i,oS)
                 print "non-bound,iter: %d i: %d,pairs changed %d" % (iter,i,alphaPairsChanged)
             iter += 1
         if entireSet:
             entireSet = False
         elif(alphaPairsChanged == 0):
-            entireSet = 
+            entireSet = True
             print "iteration number: %d" % iter
         return oS.b,oS.alphas
+
+
+def calcWs(alphas,dataArr,classLabels):
+    X = mat(dataArr)
+    labelMat = mat(classLabels).transpose()
+    m,n = shape(X)
+    w = zeros((n,1))
+    for i in range(m):
+        w += multiply(alphas[i]*labelMat[i],X[i,:].T)
+    return w
