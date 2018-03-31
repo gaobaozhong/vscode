@@ -1,4 +1,4 @@
-import svmMLiA_2018032701 as svmMLiA
+import svmMLiA_2018033001 as svmMLiA
 from numpy import *
 #dataArr,labelArr = svmMLiA.loadDataSet(r'/Users/gao/code/machinelearninginaction/Ch06/testSet.txt') 
 dataArr,labelArr = svmMLiA.loadDataSet(r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch06\testSet.txt') 
