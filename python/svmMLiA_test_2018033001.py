@@ -8,7 +8,7 @@ print (dataArr[:3])
 
 
 b,alphas = svmMLiA.smoSimple(dataArr,labelArr,0.6,0.001,4)
-# ws = svmMLiA.calcWs(alphas,dataArr,labelArr)
+# ws = svmMLiA.calcWs(alphas,dataArr,labelArr)llllllllllllll
 # print ws
 
 # datMat = mat(dataArr)

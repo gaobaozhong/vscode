@@ -82,9 +82,9 @@ def smoSimple(dataMatIn, classLabel, C, toler, maxIter):
     # 于是类别标签相连的每行月还俗和数据矩阵中的行一一对应。
     dataMatrix = mat(dataMatIn)
     # !!!
-    # bug: 
+    # bug:
     # labelMat = mat(classLabel).transpose()。同样的错误我犯了两次。transpose（）。我忘记了。。。这就是让labelMat变成了一个1*m的向量。而我需要的是m*1向量。调bug好痛苦啊！
-    # !!! 
+    # !!!
     labelMat = mat(classLabel).transpose()
     b = 0
     # 我们可以通过矩阵dataMatIn的shape属性得到常数m和n。
@@ -108,17 +108,23 @@ def smoSimple(dataMatIn, classLabel, C, toler, maxIter):
             print 'multiply(alphas,labelMat).T', multiply(alphas, labelMat).T
             print 'dataMatrix[i,:]', dataMatrix[i, :]
             print 'dataMatrix[i,:].T', dataMatrix[i, :].T
-            print 'multiply(alphas, labelMat).T',multiply(alphas, labelMat).T
-            print 'dataMatrix* dataMatrix[i,:].T', dataMatrix * dataMatrix[i, :].T
-            print 'multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)',multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)
-            print 'float(multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)):',float(multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T))
+            print 'multiply(alphas, labelMat).T', multiply(alphas, labelMat).T
+            print 'dataMatrix* dataMatrix[i,:].T', dataMatrix * dataMatrix[
+                i, :].T
+            print 'multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)', multiply(
+                alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)
+            print 'float(multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)):', float(
+                multiply(alphas, labelMat).T *
+                (dataMatrix * dataMatrix[i, :].T))
             fXi = float(
                 multiply(alphas, labelMat).T *
                 (dataMatrix * dataMatrix[i, :].T)) + b
             # 然后，基于这个实例的预测结果和真实值结果的对比，就可以计算误差Ei。
             Ei = fXi - float(labelMat[i])
             # 如果为误差很大，那么可以对该数据实例所对应的alpha进行优化。对该条件的测试处于上述清单的1处。在if语句中，不管正间隔还是副间隔都会被测试。 并且在该if语句中，也要同时检查alpah，以保证其不能等于0或者C。 后面alpah小于0或者大于C是将被调整为0或者C，所以一旦在该if语句中他们等于这两个值的话，那么他们就已经在“边界”上了。因此不能够减小或者增大，因此也就不值得对他们进行优化了。
-            if ((labelMat[i] * Ei < -toler) and (alphas[i] < C)) or ((labelMat[i].Ei > toler) and (alphas[i] > 0)):
+            if ((labelMat[i] * Ei < -toler) and
+                (alphas[i] < C)) or ((labelMat[i] * Ei > toler) and
+                                     (alphas[i] > 0)):
                 # 接下来，可以利用程序清单6-1中的辅助函数来随机选择第二个alpha值，alpha[j]，
                 j = selectJrand(i, m)
                 # 同样，可以采用第一个alpha值，alpha[i]的误差计算方法，来计算这个alpha的误差，这个过程可以通过copy（）的方法来实现，一次你稍后可以将新的alpha只和老的alpha只进行比较。python则会通过引用的方式来传递所有的列表，必须明确的告知python要alphaIold和alphaJold分配新的内存，否则的话，在对新值和旧值进行比较时，我们就看不到新旧值的变化。
@@ -149,7 +155,8 @@ def smoSimple(dataMatIn, classLabel, C, toler, maxIter):
                 if (abs(alphas[j] - alphaJold) < 0.0001):
                     print "j not moving enough"
                     continue
-                #然后，alpha[i]和alpha[j]同样进行改变，虽然改变的大小一样，但是改变的方向正好想法，如果一个增加，来那么另外一个减少。在对alpha[i]和alpha[j]进行改变之后，给这两值设置一个常数项b
+                #然后，alpha[i]和alpha[j]同样进行改变，虽然改变的大小一样，但是改变的方向正好想法
+                # ，如果一个增加，来那么另外一个减少。在对alpha[i]和alpha[j]进行改变之后，给这两值设置一个常数项b
                 alphas[i] += labelMat[j] * labelMat[i] * (
                     alphaJold - alphas[j])
                 b1 = b - Ei - labelMat[i] * (
