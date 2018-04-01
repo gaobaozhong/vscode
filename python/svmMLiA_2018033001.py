@@ -102,20 +102,20 @@ def smoSimple(dataMatIn, classLabel, C, toler, maxIter):
         # 然后在对整个集合顺序遍历。
         for i in range(m):
             # 首先fxi能计算出来，这就是我们预测的类别。
-            print 'i: ', i
-            print 'alphas:', alphas
-            print 'multiply(alphas,labelMat)', multiply(alphas, labelMat)
-            print 'multiply(alphas,labelMat).T', multiply(alphas, labelMat).T
-            print 'dataMatrix[i,:]', dataMatrix[i, :]
-            print 'dataMatrix[i,:].T', dataMatrix[i, :].T
-            print 'multiply(alphas, labelMat).T', multiply(alphas, labelMat).T
-            print 'dataMatrix* dataMatrix[i,:].T', dataMatrix * dataMatrix[
-                i, :].T
-            print 'multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)', multiply(
-                alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)
-            print 'float(multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)):', float(
-                multiply(alphas, labelMat).T *
-                (dataMatrix * dataMatrix[i, :].T))
+            # print 'i: ', i
+            # print 'alphas:', alphas
+            # print 'multiply(alphas,labelMat)', multiply(alphas, labelMat)
+            # print 'multiply(alphas,labelMat).T', multiply(alphas, labelMat).T
+            # print 'dataMatrix[i,:]', dataMatrix[i, :]
+            # print 'dataMatrix[i,:].T', dataMatrix[i, :].T
+            # print 'multiply(alphas, labelMat).T', multiply(alphas, labelMat).T
+            # print 'dataMatrix* dataMatrix[i,:].T', dataMatrix * dataMatrix[
+            #     i, :].T
+            # print 'multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)', multiply(
+            #     alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)
+            # print 'float(multiply(alphas, labelMat).T * (dataMatrix * dataMatrix[i, :].T)):', float(
+                # multiply(alphas, labelMat).T *
+                # (dataMatrix * dataMatrix[i, :].T))
             fXi = float(
                 multiply(alphas, labelMat).T *
                 (dataMatrix * dataMatrix[i, :].T)) + b
