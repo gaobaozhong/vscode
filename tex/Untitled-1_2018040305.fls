@@ -1,0 +1,132 @@
+PWD d:/Users/gao/Documents/Code/tex
+INPUT C:/Users/gao/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT d:/Users/gao/Documents/Code/tex/Untitled-1_2018040305.tex
+OUTPUT Untitled-1_2018040305.log
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexart.cls
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexart.cls
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.tex
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.tex
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/CaseFolding.txt
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/SpecialCasing.txt
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/xparse/xparse.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/xparse/xparse.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/engine/ctex-engine-pdftex.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexhook.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexhook.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexpatch.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexpatch.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/fix-cm.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/fix-cm.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/config/ctexopts.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/config/ctexopts.cfg
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/engine/ctex-engine-pdftex.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/engine/ctex-engine-pdftex.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKutf8.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKutf8.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/utf8.def
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/utf8.def
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/ot1enc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/ot1enc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/omsenc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/omsenc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJK.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJK.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/mule/MULEenc.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/mule/MULEenc.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJK.enc
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjkpunct/CJKpunct.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjkpunct/CJKpunct.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjkpunct/CJKpunct.spa
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjkpunct/CJKpunct.spa
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKspace.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKspace.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexspa.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctexspa.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKfntef.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKfntef.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKulem.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/CJKulem.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ulem/ulem.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ulem/ulem.sty
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy6.tfm
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/zhnumber/zhnumber.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/zhnumber/zhnumber.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/zhnumber/zhnumber-utf8.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/zhnumber/zhnumber-utf8.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/zhnumber/zhnumber-utf8.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/config/ctex-name-utf8.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/config/ctex-name-utf8.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctex-c5size.clo
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/ctex-c5size.clo
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr7.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+INPUT C:/Windows/Fonts/msyh.ttc
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/generic/ctex/zhwindowsfonts.tex
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/generic/ctex/zhwindowsfonts.tex
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/generic/ctex/zhwindowsfonts.tex
+INPUT C:/Users/gao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT d:/Program Files/MiKTeX 2.9/fonts/sfd/ttf2pk/UGBK.sfd
+INPUT d:/Program Files/MiKTeX 2.9/fonts/sfd/ttf2pk/Unicode.sfd
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/config/ctex.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/config/ctex.cfg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/UTF8/UTF8.bdg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/UTF8/UTF8.bdg
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/UTF8/UTF8.enc
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/UTF8/UTF8.enc
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/UTF8/UTF8.chr
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/cjk/UTF8/UTF8.chr
+INPUT Untitled-1_2018040305.aux
+INPUT Untitled-1_2018040305.aux
+OUTPUT Untitled-1_2018040305.aux
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/fd/c70rm.fd
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/ctex/fd/c70rm.fd
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/fonts/tfm/zhmetrics/unisong/unisong4f.tfm
+OUTPUT Untitled-1_2018040305.pdf
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/fonts/tfm/zhmetrics/unisong/unisong59.tfm
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/fonts/tfm/zhmetrics/unisong/unisongff.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsl10.tfm
+INPUT Untitled-1_2018040305.aux
+INPUT C:/WINDOWS/Fonts/simsun.ttc
+INPUT C:/WINDOWS/Fonts/simsun.ttc
+INPUT C:/WINDOWS/Fonts/simsun.ttc
+INPUT d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
