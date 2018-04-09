@@ -255,81 +255,101 @@ def smoSimple(dataMatIn, classLabel, C, toler, maxIter):
         print "iteration numberr: %d " % iter
     return b, alphas
 
-# def smoSimple1(dataMatIn,classLabel,C,toler,maxIter):
-#     dataMatrix = mat(dataMatIn)
-#     labelMat = mat(classLabel).transpose()
-#     b = 0
-#     m,n = shape(dataMatrix)
-#     # print m
-#     alphas = mat(zeros((m,1)))
-#     iter = 0
+def smoSimple1(dataMatIn,classLabel,C,toler,maxIter):
+    dataMatrix = mat(dataMatIn)
+    labelMat = mat(classLabel).transpose()
+    b = 0
+    m,n = shape(dataMatrix)
+    # print m
+    alphas = mat(zeros((m,1)))
+    iter = 0
 
-#     while(iter< maxIter):
-#         alphaPairsChanged =0
-#         for i in range(m):
-#             fXi = 
-#                 float(
-#                     multiply(
-#                         alphas,
-#                         labelMat
-#                     ).T
-#                     *
-#                     (
-#                         dataMatrix 
-#                         * 
-#                         dataMatrix[i,:].T
-#                     )
-#                 ) 
-#                 + 
-#                 b
-#             Ei = fXi - float(labelMat[i])
-#             if():
-#                 j =
-#                 fXj =
-#                 Ej =
+    while(iter< maxIter):
+        alphaPairsChanged =0
+        for i in range(m):
+            fXi = float(
+                multiply(
+                    alphas,
+                    labelMat
+                ).T *
+                (
+                    dataMatrix *
+                    dataMatrix[i,:].T
+                ) + b
+            )
 
-#                 alphaIold =
-#                 alphaJold =
+            Ei = fXi -float(labelMat[i])
 
-#                 if():
-#                     L =
-#                     H =
-#                 else:
-#                     L =
-#                     H =
-#                 if L == H:
-#                     print "L == H"
-#                     continue
-#                 eta =
-#                 if eta >= 0:
-#                     print "eta>=0"
-#                     continue
-#                 alphas[j] -=
-#                 alphas[j] =
-
-#                 if():
-#                     print "j not moing enough"
-#                     continue
+            if (
+                    (
+                        (
+                            labelMat[i] * Ei < -toler
+                        ) and (
+                            alphas[i] < C
+                        )
+                    ) or
+                    (
+                        (
+                            labelMat[i] * Ei > toler
+                        ) and (
+                            alphas[i] > 0
+                        )
+                    )
+                ):
+                j = selectJrand(i,m)
+                fXj = float(
+                    multiply(
+                        alphas,labelMat
+                    ).T *
+                    (
+                        dataMatrix * dataMatrix[j,:].T
+                    )
+                ) + b
+                Ej = fXj - float(labelMat[j])
                 
-#                 alphas[i] +=
-#                 b1 = 
-#                 b2 =
-#                 if():
-#                     b = b1
-#                 elif():
-#                     b = b2
-#                 else:
-#                     b = (b1+b2)/2.0
-                
-#                 alphaPairsChanged += 1
-#                 print "iter: %d i: %d, pairs changed %d" %(iter,i,alphaPairsChanged)
 
-#         if(alphaPairsChanged == 0):
-#             iter += 1
-#         else:
-#             iter = 0
-#         print "iteration number: %d" % iter
-#     return b,alphas
+                alphaIold =
+                alphaJold =
+
+                if():
+                    L =
+                    H =
+                else:
+                    L =
+                    H =
+                if L == H:
+                    print "L == H"
+                    continue
+                eta =
+                if eta >= 0:
+                    print "eta>=0"
+                    continue
+                alphas[j] -=
+                alphas[j] =
+
+                if():
+                    print "j not moing enough"
+                    continue
+                
+                alphas[i] +=
+                b1 = 
+                b2 =
+                if():
+                    b = b1
+                elif():
+                    b = b2
+                else:
+                    b = (b1+b2)/2.0
+                
+                alphaPairsChanged += 1
+                print "iter: %d i: %d, pairs changed %d" %(iter,i,alphaPairsChanged)
+
+        if(alphaPairsChanged == 0):
+            iter += 1
+        else:
+            iter = 0
+        print "iteration number: %d" % iter
+    return b,alphas
 # def smoSimple2(dataMatIn,classLabel, C,toler,maxIter):
 #     dataMatrix = 
 #     labelMatrix =

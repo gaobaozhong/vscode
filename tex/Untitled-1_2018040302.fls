@@ -1,0 +1,35 @@
+PWD d:/Users/gao/Documents/Code/tex
+INPUT C:/Users/gao/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT d:/Users/gao/Documents/Code/tex/Untitled-1_2018040302.tex
+OUTPUT Untitled-1_2018040302.log
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT d:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/xelatex/xecjk/xeCJK.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/xelatex/xecjk/xeCJK.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.tex
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.tex
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/CaseFolding.txt
+INPUT d:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/SpecialCasing.txt
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT C:/Users/gao/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT Untitled-1_2018040302.aux
+INPUT Untitled-1_2018040302.aux
+OUTPUT Untitled-1_2018040302.aux
+OUTPUT Untitled-1_2018040302.pdf
+INPUT C:/Users/gao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT Untitled-1_2018040302.aux
+INPUT d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
