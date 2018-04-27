@@ -1,3 +1,4 @@
+#coding:utf
 import matplotlib
 import matplotlib.pyplot as plt
 import kNN_20180307 as kNN
