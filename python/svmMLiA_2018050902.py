@@ -141,8 +141,7 @@ def innerL(i, oS):
         updateEk(oS, j) #added this for the Ecache
         if (abs(oS.alphas[j] - alphaJold) < 0.00001): print "j not moving enough"; return 0
         oS.alphas[i] += oS.labelMat[j]*oS.labelMat[i]*(alphaJold - oS.alphas[j])#update i by the same amount as j
-        updateEk(oS, i) #added this for the Ecache                    #the update is in the oppostie
-         direction
+        updateEk(oS, i) #added this for the Ecache                    #the update is in the oppostie direction
         b1 = oS.b - Ei- oS.labelMat[i]*(oS.alphas[i]-alphaIold)*oS.K[i,i] - oS.labelMat[j]*(oS.alphas[j]-alphaJold)*oS.K[i,j]
         b2 = oS.b - Ej- oS.labelMat[i]*(oS.alphas[i]-alphaIold)*oS.K[i,j]- oS.labelMat[j]*(oS.alphas[j]-alphaJold)*oS.K[j,j]
         if (0 < oS.alphas[i]) and (oS.C > oS.alphas[i]): oS.b = b1
@@ -182,7 +181,7 @@ def calcWs(alphas,dataArr,classLabels):
     return w
 
 def testRbf(k1=1.3):
-    dataArr,labelArr = loadDataSet('testSetRBF.txt')
+    dataArr,labelArr = loadDataSet(r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch06\testSetRBF.txt')
     b,alphas = smoP(dataArr, labelArr, 200, 0.0001, 10000, ('rbf', k1)) #C=200 important
     datMat=mat(dataArr); labelMat = mat(labelArr).transpose()
     svInd=nonzero(alphas.A>0)[0]
@@ -196,7 +195,7 @@ def testRbf(k1=1.3):
         predict=kernelEval.T * multiply(labelSV,alphas[svInd]) + b
         if sign(predict)!=sign(labelArr[i]): errorCount += 1
     print "the training error rate is: %f" % (float(errorCount)/m)
-    dataArr,labelArr = loadDataSet('testSetRBF2.txt')
+    dataArr,labelArr = loadDataSet(r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch06\testSetRBF2.txt')
     errorCount = 0
     datMat=mat(dataArr); labelMat = mat(labelArr).transpose()
     m,n = shape(datMat)

@@ -1,4 +1,4 @@
-import svmMLiA_2018042201 as svmMLiA
+import svmMLiA_2018050902 as svmMLiA
 from numpy import *
 dataArr, labelArr = svmMLiA.loadDataSet(
     r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch06\testSet.txt')
@@ -115,19 +115,19 @@ dataArr, labelArr = svmMLiA.loadDataSet(
 #     )
 # print labelMat[i]*Ei
 
-b, alphas = svmMLiA.smoP(dataArr, labelArr, 0.6, 0.001, 40)
-ws = svmMLiA.calcWs(alphas,dataArr,labelArr)
-print ws
+# b, alphas = svmMLiA.smoP(dataArr, labelArr, 0.6, 0.001, 40)
+# ws = svmMLiA.calcWs(alphas,dataArr,labelArr)
+# print ws
 
-dataMat = mat(dataArr)
-for i in range(50):
-    # print i
-    fXi =  (dataMat[i]*mat(ws)+b)
-    # print fXi
-    Yi= labelArr[i]
-    if (fXi * Yi < 0):
-        print i
-        print  fXi
-        print Yi
+# dataMat = mat(dataArr)
+# for i in range(50):
+#     # print i
+#     fXi =  (dataMat[i]*mat(ws)+b)
+#     # print fXi
+#     Yi= labelArr[i]
+#     if (fXi * Yi < 0):
+#         print i
+#         print  fXi
+#         print Yi
 
 svmMLiA.testRbf()
