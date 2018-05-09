@@ -1,9 +1,10 @@
 import svmMLiA_2018042201 as svmMLiA
 from numpy import *
-dataArr, labelArr = svmMLiA.loadDataSet(r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch06\testSet.txt')
+dataArr, labelArr = svmMLiA.loadDataSet(
+    r'D:\Users\gao\Documents\Code\machinelearninginaction\Ch06\testSet.txt')
 # print labelArr[:5] # [-1.0, -1.0, 1.0, -1.0, 1.0]
 # print dataArr[:5] #[[3.542485, 1.977398], [3.018896, 2.556416], [7.55151, -1.58003], [2.114999, -0.004466], [8.127113, 1.274372]]
-b, alphas = svmMLiA.somSimple(dataArr,labelArr,0.6,0.001,40)
+# b, alphas = svmMLiA.somSimple(dataArr,labelArr,0.6,0.001,40)
 # C = 0.6
 # toler = 0.001
 # maxIter = 40
@@ -34,7 +35,7 @@ b, alphas = svmMLiA.somSimple(dataArr,labelArr,0.6,0.001,40)
 # print dataMatrix
 # print labelMat
 # print m,n
-# print alphas     
+# print alphas
 # print multiply(
 #                     alphas,labelMat
 #                 ).T
@@ -60,7 +61,7 @@ b, alphas = svmMLiA.somSimple(dataArr,labelArr,0.6,0.001,40)
 # fXi = float(
 #                 multiply(
 #                     alphas,labelMat
-#                 ).T 
+#                 ).T
 #                 *
 #                 (
 #                     dataMatrix*dataMatrix[0,:].T
@@ -113,3 +114,18 @@ b, alphas = svmMLiA.somSimple(dataArr,labelArr,0.6,0.001,40)
 #         )
 #     )
 # print labelMat[i]*Ei
+
+b, alphas = svmMLiA.smoP(dataArr, labelArr, 0.6, 0.001, 40)
+ws = svmMLiA.calcWs(alphas,dataArr,labelArr)
+print ws
+
+dataMat = mat(dataArr)
+for i in range(50):
+    # print i
+    fXi =  (dataMat[i]*mat(ws)+b)
+    # print fXi
+    Yi= labelArr[i]
+    if (fXi * Yi < 0):
+        print i
+        print  fXi
+        print Yi
