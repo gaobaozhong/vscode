@@ -31,3 +31,5 @@ print(diffMat)
 # print(tile([1,2],(2,2,2)))
 sqDiffMat = diffMat**2
 print(sqDiffMat)
+distanceSqDiffMat = sqDiffMat.sum(axis=None)
+print(distanceSqDiffMat)
