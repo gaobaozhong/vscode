@@ -2,8 +2,8 @@ import kNN_20180621 as kNN
 from numpy import *
 group,labels = kNN.createDataSet()
 
-print(group)
-print(labels)
+# print(group)
+# print(labels)
 
 dataSet = group
 inX = [1,0.1]
@@ -14,6 +14,8 @@ diffMat = tile(
         dataSetSize,1 
     )
 )-dataSet
+# print("-dataSet:")
+# print(diffMat)
 # diffMat1 = tile(
 #     inX,
 #     (
@@ -25,7 +27,7 @@ diffMat = tile(
 # inX = [2,3]
 diffMat = inX-dataSet
 
-print(diffMat)
+# print(diffMat)
 # print(tile([1,2],2))
 # print(tile([1,2],(2,2)))
 # # print(tile([1,2],(2,2,2)))
@@ -35,6 +37,9 @@ print(diffMat)
 # print(distanceSqDiffMat)
 
 print("test:")
-print(dataSet[:])
-print(dataSet[2:,1])
+# print(dataSet[:])
+# print(dataSet[2:,1])
 # print(dataSet[1])
+
+# print(dataSet[1,:-1])
+kNN.datingClassTest()
