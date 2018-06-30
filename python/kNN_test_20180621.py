@@ -28,8 +28,13 @@ diffMat = inX-dataSet
 print(diffMat)
 # print(tile([1,2],2))
 # print(tile([1,2],(2,2)))
-# print(tile([1,2],(2,2,2)))
-sqDiffMat = diffMat**2
-print(sqDiffMat)
-distanceSqDiffMat = sqDiffMat.sum(axis=None)
-print(distanceSqDiffMat)
+# # print(tile([1,2],(2,2,2)))
+# sqDiffMat = diffMat**2
+# print(sqDiffMat)
+# distanceSqDiffMat = sqDiffMat.sum(axis=None)
+# print(distanceSqDiffMat)
+
+print("test:")
+print(dataSet[:])
+print(dataSet[2:,1])
+# print(dataSet[1])
