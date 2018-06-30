@@ -81,3 +81,29 @@ def datingClassTest():
             errorCount += 1.0
             print (" the classifer came bakc with:%s, the real answer is : %s" % (classifierResult, datingLabels[i]))
     print ("the total error rate is : %f" % (errorCount/float(numTestVecs)))
+
+def classifyPerson():
+    resultList = [
+        'not at all',
+        'in small doses',
+        'in large doses'
+    ]
+    percentTats = float(
+        raw_input(
+            "percenttae of tim e spent palying viedeo game?"
+        )
+    )
+    ffMiles = float(
+        raw_input(
+            "frequent filier miles earned per year?"
+        )
+    )
+    iceCream = float(
+        raw_input(
+        "liters of ice cream consumed per year"
+    ))
+    datingDataMat,datingLabels = file2matrix(r'C:\Users\gao\code\machinelearninginaction\Ch02\datingTestSet2.txt');
+    normMat,ranges, minVals = autoNorm(datingDataMat)
+    inArr = array([ffMiles,percentTats,iceCream])
+    classifierResult = classify0((inArr-minVals)/ranges,normMat,datingLabels,3)
+    print("you will probably lke his person:",resultList[classifierResult-1] 
