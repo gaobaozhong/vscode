@@ -89,21 +89,23 @@ def classifyPerson():
         'in large doses'
     ]
     percentTats = float(
-        raw_input(
+        input(
             "percenttae of tim e spent palying viedeo game?"
         )
     )
     ffMiles = float(
-        raw_input(
+        input(
             "frequent filier miles earned per year?"
         )
     )
     iceCream = float(
-        raw_input(
+        input(
         "liters of ice cream consumed per year"
     ))
     datingDataMat,datingLabels = file2matrix(r'C:\Users\gao\code\machinelearninginaction\Ch02\datingTestSet2.txt');
     normMat,ranges, minVals = autoNorm(datingDataMat)
     inArr = array([ffMiles,percentTats,iceCream])
-    classifierResult = classify0((inArr-minVals)/ranges,normMat,datingLabels,3)
+    classifierResult = int(classify0((inArr-minVals)/ranges,normMat,datingLabels,3))
     print("you will probably lke his person:",resultList[classifierResult-1])
+
+    
