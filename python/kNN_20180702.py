@@ -108,4 +108,31 @@ def classifyPerson():
     classifierResult = int(classify0((inArr-minVals)/ranges,normMat,datingLabels,3))
     print("you will probably lke his person:",resultList[classifierResult-1])
 
-    
+  
+def handwritingClassTest():
+    hwLabels = []
+    trainingFileList = os.listdir(r'D:\Users\gao\Documents\code20180630\python\trainingDigits')
+    m = len(trainingFileList)
+    trainingMat = zeros((m,1024))
+    for i in range(m):
+        fileNameStr = trainingFileList[i]
+        fileStr = fileNameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        hwLabels.append(classNumStr)
+        trainingMat[i,:] = img2vector('trainingDigits/%s' % fileNameStr)
+    testFileList = os.listdir('testDigits')
+    errorCount =0.0
+    mTest = len(testFileList)
+    for i in range(mTest):
+        filenNameStr = testFileList[i]
+        fileStr = fileNameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        vectorUnderTest = img2vector('testDigits/%s' % fileNameStr)
+        classifierResult = classify0(vectorUnderTest, trainingMat,hwLabels,3)
+        print("the classifier came  bakck with : %d , the creal naser is : %d") % (classifierResult,classNumStr)
+        if(classifierResult!=classNumStr):
+            errorCount +=1.0
+    print("the total lnumber of erros is %d" % errorCount)
+    print("the tolal error rate is %f" % (errorCount/float(mTest)))
+
+

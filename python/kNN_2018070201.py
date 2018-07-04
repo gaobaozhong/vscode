@@ -1,7 +1,12 @@
 
 
 from numpy import *
-import operator
+import operator,os
+
+__author__ = 'freedom'
+import tensorflow as tf
+import numpy as np
+
 def createDataSet():
     group = array(
             [
@@ -114,7 +119,72 @@ def img2vector(filename):
     returnVect = zeros((1,1024))
     fr = open(filename)
     for i in range(32):
-        lineStr = 
+        lineStr = fr.readline()
         for j in range(32):
             returnVect[0,32*i+j] = int(lineStr[j]) 
     return returnVect 
+
+  
+def handwritingClassTest():
+    hwLabels = []
+    trainingFileList = os.listdir(r'D:\Users\gao\Documents\code20180701\python\trainingDigits')
+    m = len(trainingFileList)
+    trainingMat = zeros((m,1024))
+    for i in range(m):
+        fileNameStr = trainingFileList[i]
+        fileStr = fileNameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        hwLabels.append(classNumStr)
+        trainingMat[i,:] = img2vector('D:\\Users\\gao\\Documents\\code20180701\\python\\trainingDigits\\%s' % fileNameStr)
+    testFileList = os.listdir(r'D:\Users\gao\Documents\code20180701\python\testDigits')
+    errorCount =0.0
+    mTest = len(testFileList)
+    for i in range(mTest):
+        fileNameStr = testFileList[i]
+        fileStr = fileNameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        vectorUnderTest = img2vector('D:\\Users\\gao\\Documents\\code20180701\\python\\testDigits\\%s' % fileNameStr)
+        classifierResult = classify0(vectorUnderTest, trainingMat,hwLabels,3)
+        if(classifierResult!=classNumStr):
+            errorCount +=1.0
+            print("the classifier came  bakck with : %d , the creal naser is : %d"%(classifierResult,classNumStr))
+        
+    print("the total lnumber of erros is %d" % errorCount)
+    print("the tolal error rate is %f" % (errorCount/float(mTest)))
+
+    
+
+ 
+def loadMNIST():
+    from tensorflow.examples.tutorials.mnist import input_data
+    mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
+    return mnist
+
+def KNN(mnist):
+    train_x,train_y = mnist.train.next_batch(5000)
+    test_x,test_y = mnist.train.next_batch(200)
+ 
+    xtr = tf.placeholder(tf.float32,[None,784])
+    xte = tf.placeholder(tf.float32,[784])
+    distance = tf.sqrt(tf.reduce_sum(tf.pow(tf.add(xtr,tf.negative(xte)),2),reduction_indices=1))
+ 
+    pred = tf.argmin(distance,0)
+ 
+    init = tf.initialize_all_variables()
+ 
+    sess = tf.Session()
+    sess.run(init)
+ 
+    right = 0
+    for i in range(200):
+        ansIndex = sess.run(pred,{xtr:train_x,xte:test_x[i,:]})
+        print ('prediction is ',np.argmax(train_y[ansIndex]))
+        print ('true value is ',np.argmax(test_y[i]))
+        if np.argmax(test_y[i]) == np.argmax(train_y[ansIndex]):
+            right += 1.0
+    accracy = right/200.0
+    print (accracy)
+ 
+if __name__ == "__main__":
+    mnist = loadMNIST()
+    KNN(mnist)

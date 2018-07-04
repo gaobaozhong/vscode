@@ -1,4 +1,4 @@
-import kNN_20180702 as kNN
+import kNN_2018070201 as kNN
 from numpy import *
 group,labels = kNN.createDataSet()
 
@@ -43,4 +43,7 @@ print("test:")
 
 # print(dataSet[1,:-1])
 # kNN.datingClassTest()
-kNN.classifyPerson()
+# kNN.classifyPerson()
+
+# kNN.img2vector()
+# kNN.handwritingClassTest()
