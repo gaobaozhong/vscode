@@ -32,5 +32,39 @@ W = tf.Variable(tf.zeros((2, 2)), name="weights")
 R = tf.Variable(tf.random_normal((2, 2)), name="random_weights")
 with tf.Session() as sess:
     sess.run(tf.initialize_all_variables())
-print(sess.run(W))
-print(sess.run(R))
+    print(sess.run(W))
+    print(sess.run(R))
+
+def loadMNIST():
+    from tensorflow.examples.tutorials.mnist import input_data
+    mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
+    return mnist
+
+def KNN(mnist):
+    train_x,train_y = mnist.train.next_batch(5000)
+    test_x,test_y = mnist.train.next_batch(200)
+ 
+    xtr = tf.placeholder(tf.float32,[None,784])
+    xte = tf.placeholder(tf.float32,[784])
+    distance = tf.sqrt(tf.reduce_sum(tf.pow(tf.add(xtr,tf.negative(xte)),2),reduction_indices=1))
+ 
+    pred = tf.argmin(distance,0)
+ 
+    init = tf.initialize_all_variables()
+ 
+    sess = tf.Session()
+    sess.run(init)
+ 
+    right = 0
+    for i in range(200):
+        ansIndex = sess.run(pred,{xtr:train_x,xte:test_x[i,:]})
+        print ('prediction is ',np.argmax(train_y[ansIndex]))
+        print ('true value is ',np.argmax(test_y[i]))
+        if np.argmax(test_y[i]) == np.argmax(train_y[ansIndex]):
+            right += 1.0
+    accracy = right/200.0
+    print (accracy)
+ 
+if __name__ == "__main__":
+    mnist = loadMNIST()
+    KNN(mnist)
