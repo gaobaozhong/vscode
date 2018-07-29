@@ -1,0 +1,9 @@
+PWD d:/Users/gao/Documents/Code/tex
+INPUT C:/Users/gao/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT d:/Users/gao/Documents/Code/tex/test_2018040301.tex
+OUTPUT test_2018040301.log
+INPUT test_2018040301.aux
+INPUT test_2018040301.aux
+OUTPUT test_2018040301.aux
+OUTPUT test_2018040301.pdf
+INPUT test_2018040301.aux
